@@ -1,0 +1,114 @@
+{
+ "Building_Cottage": {
+  "lod0": 2924,
+  "lod1": 118,
+  "col": 916,
+  "mats0": 18,
+  "mats1": 8,
+  "name": "Building_Cottage",
+  "footprint": [
+   9.0,
+   7.5
+  ],
+  "height": 6.3,
+  "storeys": 1,
+  "open": "whole ground floor (living room, kitchen, bedroom, bathroom)",
+  "fbx_kb": 150
+ },
+ "Building_House": {
+  "lod0": 5008,
+  "lod1": 190,
+  "col": 1300,
+  "mats0": 25,
+  "mats1": 9,
+  "name": "Building_House",
+  "footprint": [
+   15.0,
+   8.5
+  ],
+  "height": 9.2,
+  "storeys": 2,
+  "open": "ground floor (living room, hall, kitchen), stairs, upstairs landing + front bedroom, garage",
+  "fbx_kb": 224
+ },
+ "Building_Shop": {
+  "lod0": 9072,
+  "lod1": 686,
+  "col": 1068,
+  "mats0": 20,
+  "mats1": 9,
+  "name": "Building_Shop",
+  "footprint": [
+   12.0,
+   12.3
+  ],
+  "height": 11.1,
+  "storeys": 3,
+  "open": "shop floor + stock room, fire escape to the roof, roof",
+  "fbx_kb": 316
+ },
+ "Building_Apartment": {
+  "lod0": 15996,
+  "lod1": 1504,
+  "col": 2556,
+  "mats0": 21,
+  "mats1": 9,
+  "name": "Building_Apartment",
+  "footprint": [
+   24.0,
+   15.6
+  ],
+  "height": 22.0,
+  "storeys": 6,
+  "open": "lobby, stair core lobby->roof, 3rd-floor corridor + one flat with balcony, roof",
+  "fbx_kb": 512
+ },
+ "Building_Office": {
+  "lod0": 10282,
+  "lod1": 970,
+  "col": 3300,
+  "mats0": 16,
+  "mats1": 8,
+  "name": "Building_Office",
+  "footprint": [
+   30.0,
+   24.2
+  ],
+  "height": 53.0,
+  "storeys": 10,
+  "open": "lobby, stair core lobby->roof, 2nd-floor open-plan office, roof",
+  "fbx_kb": 370
+ },
+ "Building_Skyscraper": {
+  "lod0": 6584,
+  "lod1": 670,
+  "col": 1644,
+  "mats0": 16,
+  "mats1": 10,
+  "name": "Building_Skyscraper",
+  "footprint": [
+   42.0,
+   45.0
+  ],
+  "height": 185.0,
+  "storeys": 37,
+  "open": "lobby, stair core lobby->podium roof, podium roof terrace",
+  "fbx_kb": 249
+ },
+ "Building_Warehouse": {
+  "lod0": 6526,
+  "lod1": 62,
+  "col": 1144,
+  "mats0": 16,
+  "mats1": 5,
+  "name": "Building_Warehouse",
+  "footprint": [
+   30.8,
+   20.8
+  ],
+  "height": 11.4,
+  "storeys": 1,
+  "open": "everything: hall, office, mezzanine deck",
+  "fbx_kb": 237
+ }
+}

@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8439939287825816763
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: fbd63c0d29b863246954372e62c07e4c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fbd63c0d29b863246954372e62c07e4c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fbd63c0d29b863246954372e62c07e4c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fbd63c0d29b863246954372e62c07e4c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fbd63c0d29b863246954372e62c07e4c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fbd63c0d29b863246954372e62c07e4c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fbd63c0d29b863246954372e62c07e4c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fbd63c0d29b863246954372e62c07e4c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fbd63c0d29b863246954372e62c07e4c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fbd63c0d29b863246954372e62c07e4c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fbd63c0d29b863246954372e62c07e4c, type: 3}
+      propertyPath: m_Name
+      value: Soldier_Female
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: fbd63c0d29b863246954372e62c07e4c, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 84edef57e8154784dacc7beb0f0c34be, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fbd63c0d29b863246954372e62c07e4c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6003395231227295498}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: fbd63c0d29b863246954372e62c07e4c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6404348592327044370}
+  m_SourcePrefab: {fileID: 100100000, guid: fbd63c0d29b863246954372e62c07e4c, type: 3}
+--- !u!1 &8782540172051194346 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fbd63c0d29b863246954372e62c07e4c, type: 3}
+  m_PrefabInstance: {fileID: 8439939287825816763}
+  m_PrefabAsset: {fileID: 0}
+--- !u!143 &6003395231227295498
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8782540172051194346}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Height: 1.8
+  m_Radius: 0.32
+  m_SlopeLimit: 50
+  m_StepOffset: 0.4
+  m_SkinWidth: 0.03
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0.9, z: 0}
+--- !u!114 &6404348592327044370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8782540172051194346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 660146778df580440a7c92a9d9a316c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Dominion.SoldierController
+  displayName: Soldier (Female)
+  walkVel:
+  - {x: 0, y: 1.4677}
+  - {x: 0.5647, y: 1.0621}
+  - {x: 0.7778, y: 0}
+  - {x: 0.5647, y: -0.8568}
+  - {x: 0, y: -1.1939}
+  - {x: -0.5647, y: -0.8568}
+  - {x: -0.7778, y: 0}
+  - {x: -0.5647, y: 1.0621}
+  runVel:
+  - {x: 0, y: 3.3729}
+  - {x: 1.1301, y: 2.515}
+  - {x: 1.533, y: 0}
+  - {x: 1.1301, y: -2.0502}
+  - {x: 0, y: -2.8037}
+  - {x: -1.1301, y: -2.0502}
+  - {x: -1.533, y: 0}
+  - {x: -1.1301, y: 2.515}
+  turnSharpness: 14
+  accel: 14
+  walkScale: 1.4
+  runScale: 1.55
+  grenadeInterval: 9

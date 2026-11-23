@@ -1,0 +1,119 @@
+{
+ "MAT_AntiAir": {
+  "textures": {
+   "BaseColor": "T_AntiAir_BaseColor",
+   "ORM": "T_AntiAir_ORM",
+   "Normal": "T_AntiAir_Normal"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.5,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_MuzzleFlash": {
+  "textures": {
+   "Image": "T_MuzzleFlash"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 1.0,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 6.0,
+  "blend": "BLENDED"
+ },
+ "MAT_Track": {
+  "textures": {
+   "BaseColor": "T_Track_BaseColor",
+   "ORM": "T_Track_ORM",
+   "Normal": "T_Track_Normal"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.5,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_Artillery": {
+  "textures": {
+   "BaseColor": "T_Artillery_BaseColor",
+   "ORM": "T_Artillery_ORM",
+   "Normal": "T_Artillery_Normal"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.5,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_Heavy": {
+  "textures": {
+   "BaseColor": "T_Heavy_BaseColor",
+   "ORM": "T_Heavy_ORM",
+   "Normal": "T_Heavy_Normal"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.5,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_Medium": {
+  "textures": {
+   "BaseColor": "T_Medium_BaseColor",
+   "ORM": "T_Medium_ORM",
+   "Normal": "T_Medium_Normal"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.5,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_Scout": {
+  "textures": {
+   "BaseColor": "T_Scout_BaseColor",
+   "ORM": "T_Scout_ORM",
+   "Normal": "T_Scout_Normal"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.5,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ }
+}

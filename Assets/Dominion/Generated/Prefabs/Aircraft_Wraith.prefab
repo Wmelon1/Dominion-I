@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4394799601303700607
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b49874fca3d015843833f49ab97023eb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b49874fca3d015843833f49ab97023eb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b49874fca3d015843833f49ab97023eb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b49874fca3d015843833f49ab97023eb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b49874fca3d015843833f49ab97023eb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b49874fca3d015843833f49ab97023eb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b49874fca3d015843833f49ab97023eb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b49874fca3d015843833f49ab97023eb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b49874fca3d015843833f49ab97023eb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b49874fca3d015843833f49ab97023eb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b49874fca3d015843833f49ab97023eb, type: 3}
+      propertyPath: m_Name
+      value: Aircraft_Wraith
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588865407147180562, guid: b49874fca3d015843833f49ab97023eb, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8179699476403234525, guid: b49874fca3d015843833f49ab97023eb, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5866666021909216657, guid: b49874fca3d015843833f49ab97023eb, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b49874fca3d015843833f49ab97023eb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6911831992482732951}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b49874fca3d015843833f49ab97023eb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3506351077814686127}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b49874fca3d015843833f49ab97023eb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5984578259240031853}
+  m_SourcePrefab: {fileID: 100100000, guid: b49874fca3d015843833f49ab97023eb, type: 3}
+--- !u!1 &3475687243357714734 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b49874fca3d015843833f49ab97023eb, type: 3}
+  m_PrefabInstance: {fileID: 4394799601303700607}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &6911831992482732951
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3475687243357714734}
+  serializedVersion: 5
+  m_Mass: 19000
+  m_LinearDamping: 0
+  m_AngularDamping: 0.6
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 3
+--- !u!65 &3506351077814686127
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3475687243357714734}
+  m_Material: {fileID: 13400000, guid: 0ce474830b33fc146b9428119e38c245, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 13.80911, y: 4.2303677, z: 18.19891}
+  m_Center: {x: 0, y: 0.8651839, z: -0.099453926}
+--- !u!114 &5984578259240031853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3475687243357714734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad31f0f305784d5498a695a31f9c47cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Dominion.AircraftVehicle
+  displayName: Wraith Fighter
+  unitKey: Aircraft_Wraith
+  localBounds:
+    m_Center: {x: 0, y: 0.54018354, z: -0.099453926}
+    m_Extent: {x: 6.904555, y: 2.440184, z: 9.099455}
+  muzzleScale: 0.3
+  impactKind: 1
+  impactScale: 0.5
+  surfaces:
+  - bone: aileron_L
+    axis: roll
+    max: 18
+  - bone: aileron_R
+    axis: roll
+    max: 18
+  - bone: elevator_L
+    axis: pitch
+    max: 20
+  - bone: elevator_R
+    axis: pitch
+    max: 20
+  - bone: rudder_L
+    axis: yaw
+    max: 25
+  - bone: rudder_R
+    axis: yaw
+    max: 25
+  gears:
+  - bone: gear_N
+    axis: x
+    angle: 95
+  - bone: gear_L
+    axis: y
+    angle: -88
+  - bone: gear_R
+    axis: y
+    angle: 88
+  wheelBones:
+  - wheel_N
+  - wheel_L
+  - wheel_R
+  wheelRadii:
+  - 0.3
+  - 0.4
+  - 0.4
+  canopyMode: hinge
+  canopyTravel: 32
+  hasProp: 0
+  muzzleBones:
+  - muzzle_1
+  afterburnerBones:
+  - afterburner_L
+  - afterburner_R
+  fireInterval: 0.025
+  maxSpeed: 320
+  takeoffSpeed: 68
+  thrustToWeight: 0.95
+  pitchRate: 60
+  rollRate: 220
+  yawRate: 24
+  gearTravel: 0.22

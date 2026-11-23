@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6880086067067741333
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f7e956fe258fdcc4d961750a0756cbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f7e956fe258fdcc4d961750a0756cbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f7e956fe258fdcc4d961750a0756cbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f7e956fe258fdcc4d961750a0756cbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f7e956fe258fdcc4d961750a0756cbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f7e956fe258fdcc4d961750a0756cbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f7e956fe258fdcc4d961750a0756cbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f7e956fe258fdcc4d961750a0756cbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f7e956fe258fdcc4d961750a0756cbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f7e956fe258fdcc4d961750a0756cbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4261487626076142514, guid: f7e956fe258fdcc4d961750a0756cbb3, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f7e956fe258fdcc4d961750a0756cbb3, type: 3}
+      propertyPath: m_Name
+      value: Aircraft_Lancer
+      objectReference: {fileID: 0}
+    - target: {fileID: 6737962149975351103, guid: f7e956fe258fdcc4d961750a0756cbb3, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5866666021909216657, guid: f7e956fe258fdcc4d961750a0756cbb3, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f7e956fe258fdcc4d961750a0756cbb3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7158710464780429579}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f7e956fe258fdcc4d961750a0756cbb3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8017458565551174090}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f7e956fe258fdcc4d961750a0756cbb3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7792239885511845850}
+  m_SourcePrefab: {fileID: 100100000, guid: f7e956fe258fdcc4d961750a0756cbb3, type: 3}
+--- !u!1 &6033574466332842436 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f7e956fe258fdcc4d961750a0756cbb3, type: 3}
+  m_PrefabInstance: {fileID: 6880086067067741333}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &7158710464780429579
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6033574466332842436}
+  serializedVersion: 5
+  m_Mass: 7000
+  m_LinearDamping: 0
+  m_AngularDamping: 0.6
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 3
+--- !u!65 &8017458565551174090
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6033574466332842436}
+  m_Material: {fileID: 13400000, guid: 0ce474830b33fc146b9428119e38c245, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 12.400001, y: 2.92, z: 11.02}
+  m_Center: {x: 0, y: 0.59000015, z: 0.10999966}
+--- !u!114 &7792239885511845850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6033574466332842436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad31f0f305784d5498a695a31f9c47cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Dominion.AircraftVehicle
+  displayName: Lancer Jet
+  unitKey: Aircraft_Lancer
+  localBounds:
+    m_Center: {x: 0, y: 0.29999995, z: 0.10999966}
+    m_Extent: {x: 6.2000003, y: 1.7500002, z: 5.51}
+  muzzleScale: 0.3
+  impactKind: 1
+  impactScale: 0.5
+  surfaces:
+  - bone: aileron_L
+    axis: roll
+    max: 18
+  - bone: aileron_R
+    axis: roll
+    max: 18
+  - bone: elevator_L
+    axis: pitch
+    max: 20
+  - bone: elevator_R
+    axis: pitch
+    max: 20
+  - bone: rudder
+    axis: yaw
+    max: 20
+  gears:
+  - bone: gear_N
+    axis: x
+    angle: 95
+  - bone: gear_L
+    axis: y
+    angle: -88
+  - bone: gear_R
+    axis: y
+    angle: 88
+  wheelBones:
+  - wheel_N
+  - wheel_L
+  - wheel_R
+  wheelRadii:
+  - 0.27
+  - 0.33
+  - 0.33
+  canopyMode: slide
+  canopyTravel: 0.85
+  hasProp: 0
+  muzzleBones:
+  - muzzle_1
+  - muzzle_2
+  - muzzle_3
+  - muzzle_4
+  afterburnerBones:
+  - afterburner
+  fireInterval: 0.05
+  maxSpeed: 230
+  takeoffSpeed: 60
+  thrustToWeight: 0.45
+  pitchRate: 45
+  rollRate: 150
+  yawRate: 20
+  gearTravel: 0.22

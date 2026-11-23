@@ -1,0 +1,332 @@
+{
+ "BLD_Brick": {
+  "stem": "Brick",
+  "tint": "ffffff",
+  "kind": "lit",
+  "tile_m": [
+   1.8,
+   1.8
+  ]
+ },
+ "BLD_BrickDark": {
+  "stem": "Brick",
+  "tint": "9a9290",
+  "kind": "lit",
+  "tile_m": [
+   1.8,
+   1.8
+  ]
+ },
+ "BLD_Plaster_Cream": {
+  "stem": "Plaster",
+  "tint": "f0e2c4",
+  "kind": "lit",
+  "tile_m": [
+   3.0,
+   3.0
+  ]
+ },
+ "BLD_Plaster_Sage": {
+  "stem": "Plaster",
+  "tint": "c4cfb6",
+  "kind": "lit",
+  "tile_m": [
+   3.0,
+   3.0
+  ]
+ },
+ "BLD_Plaster_White": {
+  "stem": "Plaster",
+  "tint": "ffffff",
+  "kind": "lit",
+  "tile_m": [
+   3.0,
+   3.0
+  ]
+ },
+ "BLD_Plaster_Terracotta": {
+  "stem": "Plaster",
+  "tint": "d8a07e",
+  "kind": "lit",
+  "tile_m": [
+   3.0,
+   3.0
+  ]
+ },
+ "BLD_Concrete": {
+  "stem": "Concrete",
+  "tint": "ffffff",
+  "kind": "lit",
+  "tile_m": [
+   3.0,
+   3.0
+  ]
+ },
+ "BLD_ConcreteDark": {
+  "stem": "Concrete",
+  "tint": "a4a29e",
+  "kind": "lit",
+  "tile_m": [
+   3.0,
+   3.0
+  ]
+ },
+ "BLD_Stone": {
+  "stem": "Concrete",
+  "tint": "efe6d2",
+  "kind": "lit",
+  "tile_m": [
+   3.0,
+   3.0
+  ]
+ },
+ "BLD_Siding_White": {
+  "stem": "Siding",
+  "tint": "ffffff",
+  "kind": "lit",
+  "tile_m": [
+   2.0,
+   2.0
+  ]
+ },
+ "BLD_Siding_Blue": {
+  "stem": "Siding",
+  "tint": "a9bccd",
+  "kind": "lit",
+  "tile_m": [
+   2.0,
+   2.0
+  ]
+ },
+ "BLD_Siding_Yellow": {
+  "stem": "Siding",
+  "tint": "e8d79e",
+  "kind": "lit",
+  "tile_m": [
+   2.0,
+   2.0
+  ]
+ },
+ "BLD_Shingle": {
+  "stem": "Shingle",
+  "tint": "ffffff",
+  "kind": "lit",
+  "tile_m": [
+   2.0,
+   2.0
+  ]
+ },
+ "BLD_Shingle_Red": {
+  "stem": "Shingle",
+  "tint": "c98670",
+  "kind": "lit",
+  "tile_m": [
+   2.0,
+   2.0
+  ]
+ },
+ "BLD_Gravel": {
+  "stem": "Gravel",
+  "tint": "ffffff",
+  "kind": "lit",
+  "tile_m": [
+   4.0,
+   4.0
+  ]
+ },
+ "BLD_Corrugated": {
+  "stem": "Corrugated",
+  "tint": "b9c3c9",
+  "kind": "lit",
+  "tile_m": [
+   2.0,
+   2.0
+  ]
+ },
+ "BLD_Corrugated_Red": {
+  "stem": "Corrugated",
+  "tint": "b86a56",
+  "kind": "lit",
+  "tile_m": [
+   2.0,
+   2.0
+  ]
+ },
+ "BLD_Trim": {
+  "stem": "Trim",
+  "tint": "ffffff",
+  "kind": "lit",
+  "tile_m": [
+   1.0,
+   1.0
+  ]
+ },
+ "BLD_TrimGreen": {
+  "stem": "Trim",
+  "tint": "4f6a58",
+  "kind": "lit",
+  "tile_m": [
+   1.0,
+   1.0
+  ]
+ },
+ "BLD_TrimRed": {
+  "stem": "Trim",
+  "tint": "8e3a32",
+  "kind": "lit",
+  "tile_m": [
+   1.0,
+   1.0
+  ]
+ },
+ "BLD_MetalDark": {
+  "stem": "MetalDark",
+  "tint": "ffffff",
+  "kind": "lit",
+  "tile_m": [
+   1.0,
+   1.0
+  ]
+ },
+ "BLD_Galvanized": {
+  "stem": "Galvanized",
+  "tint": "ffffff",
+  "kind": "lit",
+  "tile_m": [
+   1.5,
+   1.5
+  ]
+ },
+ "BLD_InteriorWall": {
+  "stem": "InteriorWall",
+  "tint": "ffffff",
+  "kind": "lit",
+  "tile_m": [
+   3.0,
+   3.0
+  ]
+ },
+ "BLD_InteriorWall_Warm": {
+  "stem": "InteriorWall",
+  "tint": "eadcc0",
+  "kind": "lit",
+  "tile_m": [
+   3.0,
+   3.0
+  ]
+ },
+ "BLD_InteriorWall_Blue": {
+  "stem": "InteriorWall",
+  "tint": "c6d4e0",
+  "kind": "lit",
+  "tile_m": [
+   3.0,
+   3.0
+  ]
+ },
+ "BLD_InteriorWall_Green": {
+  "stem": "InteriorWall",
+  "tint": "cddabf",
+  "kind": "lit",
+  "tile_m": [
+   3.0,
+   3.0
+  ]
+ },
+ "BLD_WoodFloor": {
+  "stem": "WoodFloor",
+  "tint": "ffffff",
+  "kind": "lit",
+  "tile_m": [
+   2.0,
+   2.0
+  ]
+ },
+ "BLD_FloorTile": {
+  "stem": "FloorTile",
+  "tint": "ffffff",
+  "kind": "lit",
+  "tile_m": [
+   2.4,
+   2.4
+  ]
+ },
+ "BLD_Carpet": {
+  "stem": "Carpet",
+  "tint": "ffffff",
+  "kind": "lit",
+  "tile_m": [
+   2.0,
+   2.0
+  ]
+ },
+ "BLD_CeilingTile": {
+  "stem": "CeilingTile",
+  "tint": "ffffff",
+  "kind": "lit",
+  "tile_m": [
+   1.2,
+   1.2
+  ]
+ },
+ "BLD_Wood": {
+  "stem": "Wood",
+  "tint": "ffffff",
+  "kind": "lit",
+  "tile_m": [
+   2.0,
+   2.0
+  ]
+ },
+ "BLD_Fabric": {
+  "stem": "Fabric",
+  "tint": "7d90a8",
+  "kind": "lit",
+  "tile_m": [
+   1.0,
+   1.0
+  ]
+ },
+ "BLD_Fabric_Red": {
+  "stem": "Fabric",
+  "tint": "a85448",
+  "kind": "lit",
+  "tile_m": [
+   1.0,
+   1.0
+  ]
+ },
+ "BLD_Fabric_Beige": {
+  "stem": "Fabric",
+  "tint": "cfc2a8",
+  "kind": "lit",
+  "tile_m": [
+   1.0,
+   1.0
+  ]
+ },
+ "BLD_WindowFake": {
+  "stem": "WindowFake",
+  "tint": "ffffff",
+  "kind": "lit",
+  "tile_m": null
+ },
+ "BLD_CurtainWall": {
+  "stem": "CurtainWall",
+  "tint": "ffffff",
+  "kind": "lit",
+  "tile_m": [
+   12.0,
+   14.4
+  ]
+ },
+ "BLD_Glass": {
+  "stem": null,
+  "tint": "a9c4cc",
+  "kind": "glass",
+  "tile_m": [
+   1.0,
+   1.0
+  ]
+ }
+}

@@ -1,0 +1,158 @@
+{
+ "MAT_CamoFabric": {
+  "textures": {
+   "BaseColor": "T_CamoFabric_BaseColor",
+   "ORM": "T_CamoFabric_ORM",
+   "Normal": "T_CamoFabric_Normal"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.5,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_Webbing": {
+  "textures": {
+   "BaseColor": "T_Webbing_BaseColor",
+   "ORM": "T_Webbing_ORM",
+   "Normal": "T_Webbing_Normal"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.5,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_Polymer": {
+  "textures": {
+   "BaseColor": "T_Polymer_BaseColor",
+   "ORM": "T_Polymer_ORM",
+   "Normal": "T_Polymer_Normal"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.5,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_DarkMetal": {
+  "textures": {
+   "BaseColor": "T_DarkMetal_BaseColor",
+   "ORM": "T_DarkMetal_ORM",
+   "Normal": "T_DarkMetal_Normal"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.5,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_RedPaint": {
+  "textures": {},
+  "color": [
+   0.5,
+   0.07000000029802322,
+   0.05000000074505806
+  ],
+  "roughness": 0.44999998807907104,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_Mannequin": {
+  "textures": {
+   "BaseColor": "T_Mannequin_BaseColor",
+   "ORM": "T_Mannequin_ORM",
+   "Normal": "T_Mannequin_Normal"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.5,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_MannequinJoint": {
+  "textures": {},
+  "color": [
+   0.4000000059604645,
+   0.4099999964237213,
+   0.4399999976158142
+  ],
+  "roughness": 0.3499999940395355,
+  "metallic": 0.3499999940395355,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_Leather": {
+  "textures": {
+   "BaseColor": "T_Leather_BaseColor",
+   "ORM": "T_Leather_ORM",
+   "Normal": "T_Leather_Normal"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.5,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_Emblem": {
+  "textures": {
+   "Image": "T_Emblem"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.699999988079071,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_Lens": {
+  "textures": {},
+  "color": [
+   0.029999999329447746,
+   0.05999999865889549,
+   0.05000000074505806
+  ],
+  "roughness": 0.05000000074505806,
+  "metallic": 0.20000000298023224,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ }
+}

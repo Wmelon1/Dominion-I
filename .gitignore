@@ -1,0 +1,25 @@
+# Unity generated
+/Library/
+/Temp/
+/Obj/
+/Logs/
+/UserSettings/
+/Build/
+/Builds/
+/MemoryCaptures/
+*.csproj
+*.sln
+*.slnx
+*.pidb
+*.userprefs
+.vs/
+.vscode/
+# self-test output and build logs
+/AutoTest*/
+/Tools/unity_build.log
+/Tools/*.log
+# Blender backups / python cache
+*.blend1
+*.blend2
+__pycache__/
+*.pyc

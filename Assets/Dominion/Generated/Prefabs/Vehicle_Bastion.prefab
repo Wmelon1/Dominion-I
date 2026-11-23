@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6803647587834140409
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: c37223ed3b65ccf4da27dc78378a0f88, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c37223ed3b65ccf4da27dc78378a0f88, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c37223ed3b65ccf4da27dc78378a0f88, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c37223ed3b65ccf4da27dc78378a0f88, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c37223ed3b65ccf4da27dc78378a0f88, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c37223ed3b65ccf4da27dc78378a0f88, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c37223ed3b65ccf4da27dc78378a0f88, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c37223ed3b65ccf4da27dc78378a0f88, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c37223ed3b65ccf4da27dc78378a0f88, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c37223ed3b65ccf4da27dc78378a0f88, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 151402562147094555, guid: c37223ed3b65ccf4da27dc78378a0f88, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c37223ed3b65ccf4da27dc78378a0f88, type: 3}
+      propertyPath: m_Name
+      value: Vehicle_Bastion
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5866666021909216657, guid: c37223ed3b65ccf4da27dc78378a0f88, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c37223ed3b65ccf4da27dc78378a0f88, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8377297854602734997}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c37223ed3b65ccf4da27dc78378a0f88, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1031369072530385765}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c37223ed3b65ccf4da27dc78378a0f88, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7311652634549431338}
+  m_SourcePrefab: {fileID: 100100000, guid: c37223ed3b65ccf4da27dc78378a0f88, type: 3}
+--- !u!1 &5956574277317766056 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c37223ed3b65ccf4da27dc78378a0f88, type: 3}
+  m_PrefabInstance: {fileID: 6803647587834140409}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &8377297854602734997
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5956574277317766056}
+  serializedVersion: 5
+  m_Mass: 14000
+  m_LinearDamping: 0
+  m_AngularDamping: 0.6
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 3
+--- !u!65 &1031369072530385765
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5956574277317766056}
+  m_Material: {fileID: 13400000, guid: 0ce474830b33fc146b9428119e38c245, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.0000002, y: 3.8299997, z: 6.63}
+  m_Center: {x: 0, y: 2.685, z: 0.08500004}
+--- !u!114 &7311652634549431338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5956574277317766056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 726f29ad3ae7410418bcd07ef56498da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Dominion.WheeledVehicle
+  displayName: Bastion MRAP
+  unitKey: Vehicle_Bastion
+  localBounds:
+    m_Center: {x: 0, y: 2.2919967, z: 0.08500004}
+    m_Extent: {x: 1.5000001, y: 2.3080032, z: 3.315}
+  muzzleScale: 0.12
+  impactKind: 1
+  impactScale: 0.5
+  wheelBones:
+  - wheel_1_L
+  - wheel_1_R
+  - wheel_2_L
+  - wheel_2_R
+  wheelRadii:
+  - 0.62
+  - 0.62
+  - 0.62
+  - 0.62
+  steerBones:
+  - steer_1_L
+  - steer_1_R
+  maxSteer: 22
+  turretBone: turret
+  gunBone: gun
+  barrelBone: barrel
+  muzzleBone: muzzle
+  flashBone: flash
+  gunMin: -10
+  gunMax: 60
+  fireInterval: 0.1
+  doorBone: door_rear
+  doorAxis: y
+  doorAngle: 100
+  maxSpeed: 31
+  maxReverse: 7
+  engineAccel: 7.2
+  suspensionTravel: 0.3

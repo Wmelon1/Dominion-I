@@ -1,0 +1,190 @@
+{
+ "MAT_Emblem": {
+  "textures": {
+   "Image": "T_Emblem"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.699999988079071,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_Envelope": {
+  "textures": {
+   "BaseColor": "T_Envelope_BaseColor",
+   "ORM": "T_Envelope_ORM",
+   "Normal": "T_Envelope_Normal"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.5,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_HullPlating": {
+  "textures": {
+   "BaseColor": "T_HullPlating_BaseColor",
+   "ORM": "T_HullPlating_ORM",
+   "Normal": "T_HullPlating_Normal"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.5,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_DeckPlanks": {
+  "textures": {
+   "BaseColor": "T_DeckPlanks_BaseColor",
+   "ORM": "T_DeckPlanks_ORM",
+   "Normal": "T_DeckPlanks_Normal"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.5,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_InteriorWall": {
+  "textures": {
+   "BaseColor": "T_InteriorWall_BaseColor",
+   "ORM": "T_InteriorWall_ORM",
+   "Normal": "T_InteriorWall_Normal"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.5,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_DarkMetal": {
+  "textures": {
+   "BaseColor": "T_DarkMetal_BaseColor",
+   "ORM": "T_DarkMetal_ORM",
+   "Normal": "T_DarkMetal_Normal"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.5,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_Brass": {
+  "textures": {
+   "BaseColor": "T_Brass_BaseColor",
+   "ORM": "T_Brass_ORM",
+   "Normal": "T_Brass_Normal"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.5,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_Glass": {
+  "textures": {},
+  "color": [
+   0.10000000149011612,
+   0.12999999523162842,
+   0.14000000059604645
+  ],
+  "roughness": 0.03999999910593033,
+  "metallic": 0.0,
+  "alpha": 0.2199999988079071,
+  "emission": 0.0,
+  "blend": "BLENDED"
+ },
+ "MAT_Lamp": {
+  "textures": {},
+  "color": [
+   1.0,
+   0.7799999713897705,
+   0.5
+  ],
+  "roughness": 0.30000001192092896,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 5.0,
+  "blend": "DITHERED"
+ },
+ "MAT_RedPaint": {
+  "textures": {},
+  "color": [
+   0.5,
+   0.07000000029802322,
+   0.05000000074505806
+  ],
+  "roughness": 0.44999998807907104,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_Canvas": {
+  "textures": {
+   "BaseColor": "T_Canvas_BaseColor",
+   "ORM": "T_Canvas_ORM",
+   "Normal": "T_Canvas_Normal"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.5,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_MuzzleFlash": {
+  "textures": {
+   "Image": "T_MuzzleFlash"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 1.0,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 6.0,
+  "blend": "BLENDED"
+ }
+}

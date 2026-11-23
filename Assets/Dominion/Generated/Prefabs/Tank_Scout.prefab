@@ -1,0 +1,212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4356026620451009459
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ae6f5391b6996a54cb342d8ba05cdf80, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae6f5391b6996a54cb342d8ba05cdf80, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae6f5391b6996a54cb342d8ba05cdf80, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae6f5391b6996a54cb342d8ba05cdf80, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae6f5391b6996a54cb342d8ba05cdf80, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae6f5391b6996a54cb342d8ba05cdf80, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae6f5391b6996a54cb342d8ba05cdf80, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae6f5391b6996a54cb342d8ba05cdf80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae6f5391b6996a54cb342d8ba05cdf80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ae6f5391b6996a54cb342d8ba05cdf80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1017204958982690186, guid: ae6f5391b6996a54cb342d8ba05cdf80, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ae6f5391b6996a54cb342d8ba05cdf80, type: 3}
+      propertyPath: m_Name
+      value: Tank_Scout
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5866666021909216657, guid: ae6f5391b6996a54cb342d8ba05cdf80, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ae6f5391b6996a54cb342d8ba05cdf80, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8966454876394670560}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ae6f5391b6996a54cb342d8ba05cdf80, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 29563602305516101}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ae6f5391b6996a54cb342d8ba05cdf80, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 585637655191035765}
+  m_SourcePrefab: {fileID: 100100000, guid: ae6f5391b6996a54cb342d8ba05cdf80, type: 3}
+--- !u!1 &3509112182923955938 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ae6f5391b6996a54cb342d8ba05cdf80, type: 3}
+  m_PrefabInstance: {fileID: 4356026620451009459}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &8966454876394670560
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3509112182923955938}
+  serializedVersion: 5
+  m_Mass: 18000
+  m_LinearDamping: 0
+  m_AngularDamping: 0.6
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 3
+--- !u!65 &29563602305516101
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3509112182923955938}
+  m_Material: {fileID: 13400000, guid: 0ce474830b33fc146b9428119e38c245, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.7000008, y: 2.7339578, z: 5.79}
+  m_Center: {x: 0, y: 1.8730214, z: 0.19499993}
+--- !u!114 &585637655191035765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3509112182923955938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 016f470a7013c774398a80696ee40d38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Dominion.TrackedVehicle
+  displayName: Scout Tank
+  unitKey: Tank_Scout
+  localBounds:
+    m_Center: {x: 0, y: 1.6198559, z: 0.19499993}
+    m_Extent: {x: 1.3500004, y: 1.6201444, z: 2.895}
+  muzzleScale: 0.3
+  impactKind: 2
+  impactScale: 0.9
+  trackPitch: 0.16
+  wheelBones:
+  - wheel_L_1
+  - wheel_L_2
+  - wheel_L_3
+  - wheel_L_4
+  - idler_L
+  - sprocket_L
+  - wheel_R_1
+  - wheel_R_2
+  - wheel_R_3
+  - wheel_R_4
+  - idler_R
+  - sprocket_R
+  wheelRadii:
+  - 0.33104
+  - 0.33104
+  - 0.33104
+  - 0.33104
+  - 0.21645
+  - 0.28011
+  - 0.33104
+  - 0.33104
+  - 0.33104
+  - 0.33104
+  - 0.21645
+  - 0.28011
+  trackLeft: {fileID: 7675333945584711090}
+  trackRight: {fileID: 7759249639499945286}
+  turretBone: turret
+  gunBone: gun
+  gunMin: -10
+  gunMax: 35
+  barrelBones:
+  - barrel
+  muzzleBones:
+  - muzzle
+  flashBones:
+  - flash
+  recoils:
+  - 0.12
+  fireInterval: 0.12
+  tracerWidth: 0.08
+  radarBone: 
+  turretYawSpeed: 60
+  turretPitchSpeed: 40
+  ballistic: 0
+  shellSpeed: 110
+  doorBone: 
+  doorAxis: x
+  doorAngle: 100
+  maxSpeed: 25
+  maxReverse: 10
+  maxTurn: 46
+  engineAccel: 7
+  suspensionTravel: 0.15
+--- !u!137 &7675333945584711090 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -2956625597365598719, guid: ae6f5391b6996a54cb342d8ba05cdf80, type: 3}
+  m_PrefabInstance: {fileID: 4356026620451009459}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &7759249639499945286 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6331448983211763445, guid: ae6f5391b6996a54cb342d8ba05cdf80, type: 3}
+  m_PrefabInstance: {fileID: 4356026620451009459}
+  m_PrefabAsset: {fileID: 0}

@@ -1,0 +1,100 @@
+{
+ "DK_PaintWasp": {
+  "stem": "DronePaint",
+  "tint": "a9a58a",
+  "rough": 0.55,
+  "metal": 0.0,
+  "kind": "tex"
+ },
+ "DK_PaintMender": {
+  "stem": "DronePaint",
+  "tint": "e6e8e6",
+  "rough": 0.5,
+  "metal": 0.0,
+  "kind": "tex"
+ },
+ "DK_PaintKite": {
+  "stem": "DronePaint",
+  "tint": "6d747a",
+  "rough": 0.55,
+  "metal": 0.0,
+  "kind": "tex"
+ },
+ "DK_Accent": {
+  "stem": "DronePaint",
+  "tint": "e0892a",
+  "rough": 0.5,
+  "metal": 0.0,
+  "kind": "tex"
+ },
+ "DK_Medic": {
+  "stem": "DronePaint",
+  "tint": "2fa59b",
+  "rough": 0.45,
+  "metal": 0.0,
+  "kind": "tex"
+ },
+ "DK_Carbon": {
+  "stem": "Carbon",
+  "tint": "ffffff",
+  "rough": 0.3,
+  "metal": 0.0,
+  "kind": "tex"
+ },
+ "DK_Anodized": {
+  "stem": "Anodized",
+  "tint": "ffffff",
+  "rough": 0.32,
+  "metal": 0.95,
+  "kind": "tex"
+ },
+ "DK_Rubber": {
+  "stem": "Rubber",
+  "tint": "ffffff",
+  "rough": 0.86,
+  "metal": 0.0,
+  "kind": "tex"
+ },
+ "DK_Lens": {
+  "stem": null,
+  "tint": "0b1016",
+  "rough": 0.04,
+  "metal": 0.6,
+  "kind": "flat"
+ },
+ "DK_GlowRed": {
+  "stem": null,
+  "tint": "ff2216",
+  "rough": 0.3,
+  "metal": 0.0,
+  "kind": "glow"
+ },
+ "DK_GlowGreen": {
+  "stem": null,
+  "tint": "20ff48",
+  "rough": 0.3,
+  "metal": 0.0,
+  "kind": "glow"
+ },
+ "DK_GlowWhite": {
+  "stem": null,
+  "tint": "fff6e8",
+  "rough": 0.3,
+  "metal": 0.0,
+  "kind": "glow"
+ },
+ "DK_GlowMedic": {
+  "stem": null,
+  "tint": "38fff0",
+  "rough": 0.3,
+  "metal": 0.0,
+  "kind": "glow"
+ },
+ "DK_RotorBlur": {
+  "stem": "RotorBlur",
+  "tint": "ffffff",
+  "rough": 0.5,
+  "metal": 0.0,
+  "kind": "blur"
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "PK_Canopy": {
+  "stem": "Ripstop",
+  "tint": "a7ad86",
+  "rough": 0.6,
+  "metal": 0.0,
+  "kind": "tex"
+ },
+ "PK_CanopyHem": {
+  "stem": "Ripstop",
+  "tint": "6b7154",
+  "rough": 0.6,
+  "metal": 0.0,
+  "kind": "tex"
+ },
+ "PK_Lines": {
+  "stem": null,
+  "tint": "d8d6cc",
+  "rough": 0.7,
+  "metal": 0.0,
+  "kind": "flat"
+ },
+ "PK_Webbing": {
+  "stem": "Webbing",
+  "tint": "7a7d5c",
+  "rough": 0.8,
+  "metal": 0.0,
+  "kind": "tex"
+ },
+ "PK_Pack": {
+  "stem": "Webbing",
+  "tint": "585c40",
+  "rough": 0.85,
+  "metal": 0.0,
+  "kind": "tex"
+ },
+ "PK_Metal": {
+  "stem": null,
+  "tint": "8e9196",
+  "rough": 0.35,
+  "metal": 1.0,
+  "kind": "flat"
+ }
+}

@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a0375bf50ef1534da8d457d61755ab3, type: 3}
+  m_Name: CityKit
+  m_EditorClassIdentifier: Assembly-CSharp::Dominion.CityKit
+  buildings:
+  - name: Building_Cottage
+    type: Building_Cottage
+    prefab: {fileID: 2458961567442611760, guid: 70ca2250242775b4086c068101525c7a, type: 3}
+    min: {x: -4.95, y: -4.2}
+    max: {x: 4.95, y: 5.95}
+    height: 6.3199997
+  - name: Building_Cottage_v1
+    type: Building_Cottage
+    prefab: {fileID: 5856395430507876896, guid: ab622acdb3b3ecf4894c06ea180e9308, type: 3}
+    min: {x: -4.95, y: -4.2}
+    max: {x: 4.95, y: 5.95}
+    height: 6.3199997
+  - name: Building_Cottage_v2
+    type: Building_Cottage
+    prefab: {fileID: 326287967585875835, guid: 604dd4f92833a774d9174fcd891d075e, type: 3}
+    min: {x: -4.95, y: -4.2}
+    max: {x: 4.95, y: 5.95}
+    height: 6.3199997
+  - name: Building_Cottage_v3
+    type: Building_Cottage
+    prefab: {fileID: 4304899862711939120, guid: 200743b38c9884d4f89f96ce23732b9e, type: 3}
+    min: {x: -4.95, y: -4.2}
+    max: {x: 4.95, y: 5.95}
+    height: 6.3199997
+  - name: Building_House
+    type: Building_House
+    prefab: {fileID: 664625509958079636, guid: b1ae396ae619ce04e910d9456253418f, type: 3}
+    min: {x: -9.56, y: -4.9000006}
+    max: {x: 6, y: 5.45}
+    height: 8.759765
+  - name: Building_House_v1
+    type: Building_House
+    prefab: {fileID: 7038909146319199058, guid: 9d94a25b597fe474cafb7fbf46462ec5, type: 3}
+    min: {x: -9.56, y: -4.9000006}
+    max: {x: 6, y: 5.45}
+    height: 8.759765
+  - name: Building_House_v2
+    type: Building_House
+    prefab: {fileID: 4830674835810334512, guid: ca7c4ef00655f3945a924efe149c24cb, type: 3}
+    min: {x: -9.56, y: -4.9000006}
+    max: {x: 6, y: 5.45}
+    height: 8.759765
+  - name: Building_Shop
+    type: Building_Shop
+    prefab: {fileID: 5977056438963039404, guid: c72e8fd410d8cb446a62709a0c5fda05, type: 3}
+    min: {x: -6.2, y: -7.3200006}
+    max: {x: 6.2, y: 6.3}
+    height: 15
+  - name: Building_Shop_v1
+    type: Building_Shop
+    prefab: {fileID: 3253230160417341463, guid: 76898ad3d87e91c48933c9b2c5783d07, type: 3}
+    min: {x: -6.2, y: -7.3200006}
+    max: {x: 6.2, y: 6.3}
+    height: 15
+  - name: Building_Apartment
+    type: Building_Apartment
+    prefab: {fileID: 4086117939639584647, guid: be9ec0d4c85e37a4e8a7aab7ab6d1403, type: 3}
+    min: {x: -12.06, y: -7.0599995}
+    max: {x: 12.06, y: 8.6}
+    height: 25.75
+  - name: Building_Apartment_v1
+    type: Building_Apartment
+    prefab: {fileID: 509268578588489994, guid: c2ec5b027ac57834ab30a264311f154a, type: 3}
+    min: {x: -12.06, y: -7.0599995}
+    max: {x: 12.06, y: 8.6}
+    height: 25.75
+  - name: Building_Apartment_v2
+    type: Building_Apartment
+    prefab: {fileID: 7313396355900832250, guid: dc78a0262b176ec4c904ebcbbf5dbbd8, type: 3}
+    min: {x: -12.06, y: -7.0599995}
+    max: {x: 12.06, y: 8.6}
+    height: 25.75
+  - name: Building_Office
+    type: Building_Office
+    prefab: {fileID: 9124832329287894602, guid: c7df15bfe770e2e4cac5c7960c4a9274, type: 3}
+    min: {x: -15.4, y: -11.4}
+    max: {x: 15.4, y: 13.199999}
+    height: 53.05
+  - name: Building_Office_v1
+    type: Building_Office
+    prefab: {fileID: 5904905563270440748, guid: 531db3537e616e24cbbd200802df9eec, type: 3}
+    min: {x: -15.4, y: -11.4}
+    max: {x: 15.4, y: 13.199999}
+    height: 53.05
+  - name: Building_Warehouse
+    type: Building_Warehouse
+    prefab: {fileID: 7349900029059579528, guid: 6ef33e9a735800448adfde74ebc131d6, type: 3}
+    min: {x: -15.4, y: -10.4}
+    max: {x: 15.4, y: 10.4}
+    height: 10.325565
+  - name: Building_Warehouse_v1
+    type: Building_Warehouse
+    prefab: {fileID: 8968050849272034062, guid: 3c676170447cd0a4ca82ea926a98fa5b, type: 3}
+    min: {x: -15.4, y: -10.4}
+    max: {x: 15.4, y: 10.4}
+    height: 10.325565
+  - name: Building_Skyscraper
+    type: Building_Skyscraper
+    prefab: {fileID: 2735026154487320151, guid: 514f6499cd2219b4987aea7ae452aacf, type: 3}
+    min: {x: -21.12, y: -21.120003}
+    max: {x: 21.12, y: 24}
+    height: 185.25
+  cars:
+  - {fileID: 6116626447396726833, guid: eb43527c803122d4aa98d75f518ec8c5, type: 3}
+  - {fileID: 2896787677896018196, guid: 810baf6339e81134d904bd6750160bbc, type: 3}
+  - {fileID: 230187636195888106, guid: 27fd9d674c9ec9b4e9d4cfadd06a83ae, type: 3}
+  - {fileID: 1769698045510924388, guid: d5147c564838b544aa0cd7f39fb8488c, type: 3}
+  - {fileID: 7929863917882460614, guid: 060b26e363ccd054aafff51256bce897, type: 3}
+  - {fileID: 3531741859875144343, guid: 6723ef27638c90641b75ae0758352a41, type: 3}
+  - {fileID: 4801013918741215359, guid: 9419fb1e483856a489566b3a45099145, type: 3}
+  - {fileID: 7760743800360734963, guid: 21367a41153668a419a8c64bc72f4ead, type: 3}
+  - {fileID: 840028893452193043, guid: f680b3b85386760468091b992b72bfb2, type: 3}
+  - {fileID: 7726872413733987752, guid: 1f810d9c4a803244e977df6988a39cac, type: 3}
+  - {fileID: 1658728530874434035, guid: e70a79ccc1ce53346bed4d64f2545bcb, type: 3}
+  - {fileID: 3211966660729972991, guid: 0ac04413a284a6c48b9100387bafcc9a, type: 3}
+  - {fileID: 6583867797203951860, guid: ccd1169ed45a5924bb7da429c36bafe1, type: 3}
+  - {fileID: 7430522177087848105, guid: 2b7cb78a650af9440a6f2abc4e46823c, type: 3}
+  - {fileID: 934265952137853581, guid: 9c5be411a3111684a9fce17e5416ae32, type: 3}
+  - {fileID: 8298181481116395126, guid: 135a89b1459d35548bd27f8e427f1a69, type: 3}
+  - {fileID: 8233671911221693508, guid: d75b1dd1139b0f341a21456d8f970987, type: 3}
+  - {fileID: 8101992744992468343, guid: bd792f53384599f479f5c5b64e50e894, type: 3}
+  - {fileID: 276023820317700535, guid: 551e79cc35fee824c94eb0db833930fa, type: 3}
+  - {fileID: 9161398289404280665, guid: befc0bf0a734cfd4e96d9fbb14d4e595, type: 3}
+  - {fileID: 4663662714621632738, guid: f696c7f054aa3174182d84dfce3103db, type: 3}
+  - {fileID: 3701530992118487904, guid: 9049f74ac5af79644b99f29ea7034e26, type: 3}
+  - {fileID: 5093382554560805048, guid: f99f61dfca5394c459c0c17ee00e4d36, type: 3}
+  - {fileID: 1943521646286524542, guid: eee08473325268b4db4a642a1c2cb48c, type: 3}
+  wrecks:
+  - {fileID: 343759806943314037, guid: 71460906c01b9114f9e309193ca864fd, type: 3}
+  - {fileID: 5443768898941184911, guid: b7835e6587213cb439b3b76c9a421b80, type: 3}
+  - {fileID: 1989742511581850386, guid: 8ec86f9d876785e43bcc65e30e818dd0, type: 3}
+  bus: {fileID: 5409010627660185696, guid: 2e1c7cda25fef4f4e997cf31defefe88, type: 3}
+  busWreck: {fileID: 6554077954221957797, guid: 30286bdc3bda03c409dea50216548ffd, type: 3}
+  trees:
+  - {fileID: 1354113722752408770, guid: 0e8ae1f53b7b72e43bf482a7f7f2ffb9, type: 3}
+  - {fileID: 9048000917381359034, guid: bed516b95c9a2924c9b9a8ecbd71ee44, type: 3}
+  - {fileID: 942423001080320041, guid: bba3a9e7c30469242ac96807efbab886, type: 3}
+  - {fileID: 5279968584752906953, guid: e3fee44dff334aa448d239f8bc4eb5a6, type: 3}
+  - {fileID: 7214009081093345783, guid: d558d98ab6f89034da27780180c1c168, type: 3}
+  streetLamp: {fileID: 6876638669567863659, guid: cafd81f5d2e4ac84498e6636f12cf6dd, type: 3}
+  trafficLight: {fileID: 3741537521781333621, guid: 2e44c2f4c5d287f45a651d5dc68324d2, type: 3}
+  bench: {fileID: 7178771794159347281, guid: 5627a7d72384d2f4ca0f9e1559addd58, type: 3}
+  jersey: {fileID: 3983351847514953591, guid: 96a589028d4828846b40b0469dc6ca4d, type: 3}
+  twall: {fileID: 2582609501423269207, guid: 421f24983cea4fa44a7474ae9d30bb88, type: 3}
+  roadLocal: {fileID: 2100000, guid: f83ce187e0373264fa20cbb0127f98b9, type: 2}
+  roadArterial: {fileID: 2100000, guid: 26a9471dc6933d04ea897fb0c20bb912, type: 2}
+  roadHighway: {fileID: 2100000, guid: 0ed96a90a7e46f04da7c9c05760863ff, type: 2}
+  asphalt: {fileID: 2100000, guid: 44d2f386928c7fa48808390097c3a367, type: 2}
+  sidewalk: {fileID: 2100000, guid: 209764d4c6731574e9ea1790642e7998, type: 2}
+  curb: {fileID: 2100000, guid: 788904be4208ff94198917cc397bed9e, type: 2}
+  crosswalk: {fileID: 2100000, guid: aff07331512311047a03dd5e377f013e, type: 2}
+  runway: {fileID: 2100000, guid: c186c5f85847b094db52ca83c4008d66, type: 2}
+  curtainWall: {fileID: 2100000, guid: b87aefe16c19aef48b32d41ffb5e81fb, type: 2}
+  gravel: {fileID: 2100000, guid: b1a7bd179d4df5c4e9f84431da769745, type: 2}
+  stone: {fileID: 2100000, guid: bf298f413bf3aec4baf78495690a82f8, type: 2}
+  metalDark: {fileID: 2100000, guid: 98150a26bd4f06644895e18c8927fed4, type: 2}
+  galvanized: {fileID: 2100000, guid: 755b39792e9d781419c3a1bc2ab9baba, type: 2}
+  corrugated: {fileID: 2100000, guid: 26fe992e43524424785c9dbbd604b7d7, type: 2}
+  corrugatedRed: {fileID: 2100000, guid: 2d0a189c21cf8a94aadfd2655486cad4, type: 2}
+  concrete: {fileID: 2100000, guid: 788904be4208ff94198917cc397bed9e, type: 2}
+  curtain:
+  - {fileID: 2100000, guid: b87aefe16c19aef48b32d41ffb5e81fb, type: 2}
+  - {fileID: 2100000, guid: 31fbcef72bd5fa648abf0b8da76d699d, type: 2}
+  - {fileID: 2100000, guid: c172b09085e41a441a5880bcdef7da0f, type: 2}
+  - {fileID: 2100000, guid: 5f89242438c369f419258ee7b2b62953, type: 2}
+  - {fileID: 2100000, guid: 8fab8595ff60c4446ac0721f1d8e7bdf, type: 2}
+  brick:
+  - {fileID: 2100000, guid: 98369d2f3e7db604392fdce046845fd2, type: 2}
+  - {fileID: 2100000, guid: cd88c209c32bd464da2980f430d542c6, type: 2}
+  - {fileID: 2100000, guid: 8f988f2e7c9b9a74c9017ab1946ed9b8, type: 2}
+  plaster:
+  - {fileID: 2100000, guid: 8d030d6d5ae6b254b8e71623bf46cb4f, type: 2}
+  - {fileID: 2100000, guid: 9c9154be77394184696903de4a4db7d4, type: 2}
+  - {fileID: 2100000, guid: 77c0ec11d332239499e2b74a5a121ff6, type: 2}
+  - {fileID: 2100000, guid: e58177b60f715354b88b819cb4317282, type: 2}
+  - {fileID: 2100000, guid: 4063c50b89a56524d99dc8123434f333, type: 2}
+  facadeConcrete:
+  - {fileID: 2100000, guid: 1d7cd8fcb60cbe4479a2d3800c11d850, type: 2}
+  - {fileID: 2100000, guid: ce6733a25396c0a439b2162bb68579d3, type: 2}
+  - {fileID: 2100000, guid: f632880bc6781b44491e76948d6bbbeb, type: 2}
+  storefront:
+  - {fileID: 2100000, guid: 7b7c8dc103faaaf41826cb77da980ebf, type: 2}
+  - {fileID: 2100000, guid: aa99dc2ffda42c942af4ec59e65ce3ab, type: 2}
+  - {fileID: 2100000, guid: 9bb6a910e9c26f645b8d6aae92412b59, type: 2}
+  - {fileID: 2100000, guid: d077ddd7baa627643abd74f839ceb4b2, type: 2}
+  layers:
+  - {fileID: 8574412962073106934, guid: 137123dee5d6d104daa579db4f660efa, type: 2}
+  - {fileID: 8574412962073106934, guid: c49d1cbb53c6d4f4ebf123ae1977f037, type: 2}
+  - {fileID: 8574412962073106934, guid: 67bfb2b6cc91aea48b91a666cd8228ce, type: 2}
+  - {fileID: 8574412962073106934, guid: d9fb3c753427917498fbcb87826b3a88, type: 2}
+  - {fileID: 8574412962073106934, guid: 5696a274a80dbed4db0035d24f2dc14b, type: 2}
+  - {fileID: 8574412962073106934, guid: fb5d094e824ec0d46b22095be914c845, type: 2}
+  terrainMaterial: {fileID: 2100000, guid: b4388e04e070ae74e825b38c844d331a, type: 2}

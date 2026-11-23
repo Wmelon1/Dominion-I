@@ -1,0 +1,145 @@
+{
+ "MAT_Falcon": {
+  "textures": {
+   "BaseColor": "T_Falcon_BaseColor",
+   "ORM": "T_Falcon_ORM",
+   "Normal": "T_Falcon_Normal"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.5,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_CanopyGlass": {
+  "textures": {},
+  "color": [
+   0.029999999329447746,
+   0.05000000074505806,
+   0.05999999865889549
+  ],
+  "roughness": 0.029999999329447746,
+  "metallic": 0.0,
+  "alpha": 0.2800000011920929,
+  "emission": 0.0,
+  "blend": "BLENDED"
+ },
+ "MAT_MuzzleFlash": {
+  "textures": {
+   "Image": "T_MuzzleFlash"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 1.0,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 6.0,
+  "blend": "BLENDED"
+ },
+ "MAT_PropBlur": {
+  "textures": {
+   "Image": "T_PropBlur"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.699999988079071,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "BLENDED"
+ },
+ "MAT_Kestrel": {
+  "textures": {
+   "BaseColor": "T_Kestrel_BaseColor",
+   "ORM": "T_Kestrel_ORM",
+   "Normal": "T_Kestrel_Normal"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.5,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_Afterburner": {
+  "textures": {
+   "Image": "T_Afterburner"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.5,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 8.0,
+  "blend": "BLENDED"
+ },
+ "MAT_Lancer": {
+  "textures": {
+   "BaseColor": "T_Lancer_BaseColor",
+   "ORM": "T_Lancer_ORM",
+   "Normal": "T_Lancer_Normal"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.5,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_Saber": {
+  "textures": {
+   "BaseColor": "T_Saber_BaseColor",
+   "ORM": "T_Saber_ORM",
+   "Normal": "T_Saber_Normal"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.5,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_Wraith": {
+  "textures": {
+   "BaseColor": "T_Wraith_BaseColor",
+   "ORM": "T_Wraith_ORM",
+   "Normal": "T_Wraith_Normal"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.5,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ }
+}

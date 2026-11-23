@@ -1,0 +1,85 @@
+{
+ "MAT_Bastion": {
+  "textures": {
+   "BaseColor": "T_Bastion_BaseColor",
+   "ORM": "T_Bastion_ORM",
+   "Normal": "T_Bastion_Normal"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.5,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_MuzzleFlash": {
+  "textures": {
+   "Image": "T_MuzzleFlash"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 1.0,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 6.0,
+  "blend": "BLENDED"
+ },
+ "MAT_Carrier": {
+  "textures": {
+   "BaseColor": "T_Carrier_BaseColor",
+   "ORM": "T_Carrier_ORM",
+   "Normal": "T_Carrier_Normal"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.5,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_Track": {
+  "textures": {
+   "BaseColor": "T_Track_BaseColor",
+   "ORM": "T_Track_ORM",
+   "Normal": "T_Track_Normal"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.5,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ },
+ "MAT_Mule": {
+  "textures": {
+   "BaseColor": "T_Mule_BaseColor",
+   "ORM": "T_Mule_ORM",
+   "Normal": "T_Mule_Normal"
+  },
+  "color": [
+   0.800000011920929,
+   0.800000011920929,
+   0.800000011920929
+  ],
+  "roughness": 0.5,
+  "metallic": 0.0,
+  "alpha": 1.0,
+  "emission": 0.0,
+  "blend": "DITHERED"
+ }
+}

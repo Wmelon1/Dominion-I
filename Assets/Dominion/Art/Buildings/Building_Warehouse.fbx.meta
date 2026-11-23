@@ -1,0 +1,303 @@
+fileFormatVersion: 2
+guid: 53c3b2023cb5c03428e7793ab634140b
+ModelImporter:
+  serializedVersion: 24600
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_Brick
+    second: {fileID: 2100000, guid: 359b8585dfcde8a46a4fdf74e3a53f3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_BrickDark
+    second: {fileID: 2100000, guid: ca09db748751df44c9a8187127595d1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_Carpet
+    second: {fileID: 2100000, guid: ad595ca012cde144f8c2d3e8c24edeee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_CeilingTile
+    second: {fileID: 2100000, guid: dd504484c678bb7409ee5fddb0700c0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_Concrete
+    second: {fileID: 2100000, guid: 788904be4208ff94198917cc397bed9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_ConcreteDark
+    second: {fileID: 2100000, guid: ba87c827787e46a45bd6677201867ed3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_Corrugated
+    second: {fileID: 2100000, guid: 26fe992e43524424785c9dbbd604b7d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_Corrugated_Red
+    second: {fileID: 2100000, guid: 2d0a189c21cf8a94aadfd2655486cad4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_CurtainWall
+    second: {fileID: 2100000, guid: b87aefe16c19aef48b32d41ffb5e81fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_Fabric
+    second: {fileID: 2100000, guid: cb33d4d3e0082db428e473ee89b299d1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_Fabric_Beige
+    second: {fileID: 2100000, guid: 36ddbb343d6195545bb2fda7430f3bf8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_Fabric_Red
+    second: {fileID: 2100000, guid: 3c7e002f9274086488b6a41eb03c2947, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_FloorTile
+    second: {fileID: 2100000, guid: dfbf7c162c7958542b65e38558765aba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_Galvanized
+    second: {fileID: 2100000, guid: 755b39792e9d781419c3a1bc2ab9baba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_Glass
+    second: {fileID: 2100000, guid: 00ff27d0b7427dd4098396cee070d81f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_Gravel
+    second: {fileID: 2100000, guid: b1a7bd179d4df5c4e9f84431da769745, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_InteriorWall
+    second: {fileID: 2100000, guid: 03a1c2e04d5d633408bd43d4554e4a80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_InteriorWall_Blue
+    second: {fileID: 2100000, guid: 51fb3dab31245c34e90a4cceb3986cb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_InteriorWall_Green
+    second: {fileID: 2100000, guid: 786a09ffa96270c41845aa300249daaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_InteriorWall_Warm
+    second: {fileID: 2100000, guid: 037f24420c4a92e4abf8c8c131a1cde1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_MetalDark
+    second: {fileID: 2100000, guid: 98150a26bd4f06644895e18c8927fed4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_Plaster_Cream
+    second: {fileID: 2100000, guid: 1c0786174f8ea00488778143dc7d7b65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_Plaster_Sage
+    second: {fileID: 2100000, guid: 337f4c356eb1a2e4fafde9e9c7df97fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_Plaster_Terracotta
+    second: {fileID: 2100000, guid: 5756b4e003708e247a8aee4c7e5a8beb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_Plaster_White
+    second: {fileID: 2100000, guid: 2eaad49b19e6ead4584b7b5a770c0f1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_Shingle
+    second: {fileID: 2100000, guid: ef75a3d95d183504f9b5b7296848bd99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_Shingle_Red
+    second: {fileID: 2100000, guid: b93c11ee0b7ffdb428d43fe27bd58bcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_Siding_Blue
+    second: {fileID: 2100000, guid: 0124ac1636cfb884782ebdd133dd5cf6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_Siding_White
+    second: {fileID: 2100000, guid: 1f863ee788935014e9897a96937608c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_Siding_Yellow
+    second: {fileID: 2100000, guid: ec929985d867d1d4a93d64379c7cc73c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_Stone
+    second: {fileID: 2100000, guid: bf298f413bf3aec4baf78495690a82f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_Trim
+    second: {fileID: 2100000, guid: 795d09f05be8c47488dd8bbc7e27c53a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_TrimGreen
+    second: {fileID: 2100000, guid: c01c34291ca7dd44087170bbca99527b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_TrimRed
+    second: {fileID: 2100000, guid: d48f3edf3e27db24bb633f87dedfbd54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_WindowFake
+    second: {fileID: 2100000, guid: a110e8d205801a74180fb79d812c3575, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_Wood
+    second: {fileID: 2100000, guid: 92f9e12f0b6c19a47ae0ae37aba4e729, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BLD_WoodFloor
+    second: {fileID: 2100000, guid: 6b9603f548f43174e8e79f65adc5a729, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+    searchTexturesGlobally: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    preBakeConvexCollisionMesh: 0
+    preBakeTriangleCollisionMesh: 0
+    importPhysicalCameras: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    importUVs: -1
+    importVertexColors: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+    calculateBlendshapeNormalsDeltaFromImportedNormals: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

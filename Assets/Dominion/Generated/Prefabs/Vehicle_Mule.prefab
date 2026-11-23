@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2322728708167508337
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9f7587db76db3924e8361cdbcc514d67, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9f7587db76db3924e8361cdbcc514d67, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9f7587db76db3924e8361cdbcc514d67, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9f7587db76db3924e8361cdbcc514d67, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9f7587db76db3924e8361cdbcc514d67, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9f7587db76db3924e8361cdbcc514d67, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9f7587db76db3924e8361cdbcc514d67, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9f7587db76db3924e8361cdbcc514d67, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9f7587db76db3924e8361cdbcc514d67, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9f7587db76db3924e8361cdbcc514d67, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9f7587db76db3924e8361cdbcc514d67, type: 3}
+      propertyPath: m_Name
+      value: Vehicle_Mule
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5866666021909216657, guid: 9f7587db76db3924e8361cdbcc514d67, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9f7587db76db3924e8361cdbcc514d67, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5399690441331491185}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9f7587db76db3924e8361cdbcc514d67, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 607325959887219775}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9f7587db76db3924e8361cdbcc514d67, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1388414995121260100}
+  m_SourcePrefab: {fileID: 100100000, guid: 9f7587db76db3924e8361cdbcc514d67, type: 3}
+--- !u!1 &3241066321523252256 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9f7587db76db3924e8361cdbcc514d67, type: 3}
+  m_PrefabInstance: {fileID: 2322728708167508337}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &5399690441331491185
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3241066321523252256}
+  serializedVersion: 5
+  m_Mass: 11000
+  m_LinearDamping: 0
+  m_AngularDamping: 0.6
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 3
+--- !u!65 &607325959887219775
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3241066321523252256}
+  m_Material: {fileID: 13400000, guid: 0ce474830b33fc146b9428119e38c245, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.96, y: 3.8499994, z: 8.039999}
+  m_Center: {x: 0, y: 2.625, z: 0}
+--- !u!114 &1388414995121260100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3241066321523252256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 726f29ad3ae7410418bcd07ef56498da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Dominion.WheeledVehicle
+  displayName: Mule Cargo Truck
+  unitKey: Vehicle_Mule
+  localBounds:
+    m_Center: {x: 0, y: 2.2656384, z: 0}
+    m_Extent: {x: 1.48, y: 2.2843614, z: 4.0199995}
+  muzzleScale: 0.12
+  impactKind: 1
+  impactScale: 0.5
+  wheelBones:
+  - wheel_1_L
+  - wheel_1_R
+  - wheel_2_L
+  - wheel_2_R
+  - wheel_3_L
+  - wheel_3_R
+  wheelRadii:
+  - 0.55
+  - 0.55
+  - 0.55
+  - 0.55
+  - 0.55
+  - 0.55
+  steerBones:
+  - steer_1_L
+  - steer_1_R
+  maxSteer: 19
+  turretBone: 
+  gunBone: gun
+  barrelBone: barrel
+  muzzleBone: muzzle
+  flashBone: flash
+  gunMin: -10
+  gunMax: 60
+  fireInterval: 0.1
+  doorBone: tailgate
+  doorAxis: x
+  doorAngle: 95
+  maxSpeed: 26
+  maxReverse: 7
+  engineAccel: 6
+  suspensionTravel: 0.3

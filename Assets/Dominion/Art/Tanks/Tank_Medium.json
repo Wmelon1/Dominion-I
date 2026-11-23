@@ -1,0 +1,209 @@
+{
+ "name": "Tank_Medium",
+ "rig": "Medium_Rig",
+ "props": {
+  "tk_tank": "Medium",
+  "tk_kind": "main_battle_tank",
+  "tk_turret_bone": "turret",
+  "tk_gun_bone": "gun",
+  "tk_gun_min": -8.0,
+  "tk_gun_max": 20.0,
+  "tk_track_pitch": 0.18,
+  "tk_links_per_side": 77,
+  "tk_drive_clip_speed": 0.36,
+  "tk_barrels": [
+   {
+    "bone": "barrel",
+    "flash": "flash",
+    "recoil": 0.35
+   }
+  ],
+  "tk_wheels": {
+   "wheel_L_1": 0.32945,
+   "wheel_L_2": 0.32945,
+   "wheel_L_3": 0.32945,
+   "wheel_L_4": 0.32945,
+   "wheel_L_5": 0.32945,
+   "wheel_L_6": 0.32945,
+   "idler_L": 0.27215,
+   "sprocket_L": 0.34377,
+   "roller_L_1": 0.11459,
+   "roller_L_2": 0.11459,
+   "roller_L_3": 0.11459,
+   "wheel_R_1": 0.32945,
+   "wheel_R_2": 0.32945,
+   "wheel_R_3": 0.32945,
+   "wheel_R_4": 0.32945,
+   "wheel_R_5": 0.32945,
+   "wheel_R_6": 0.32945,
+   "idler_R": 0.27215,
+   "sprocket_R": 0.34377,
+   "roller_R_1": 0.11459,
+   "roller_R_2": 0.11459,
+   "roller_R_3": 0.11459
+  }
+ },
+ "meshes": [
+  "Medium_Body",
+  "Medium_MuzzleFlash",
+  "Medium_Track_L",
+  "Medium_Track_R"
+ ],
+ "bones": [
+  [
+   "root",
+   "",
+   true
+  ],
+  [
+   "wheel_L_1",
+   "root",
+   true
+  ],
+  [
+   "wheel_L_2",
+   "root",
+   true
+  ],
+  [
+   "wheel_L_3",
+   "root",
+   true
+  ],
+  [
+   "wheel_L_4",
+   "root",
+   true
+  ],
+  [
+   "wheel_L_5",
+   "root",
+   true
+  ],
+  [
+   "wheel_L_6",
+   "root",
+   true
+  ],
+  [
+   "idler_L",
+   "root",
+   true
+  ],
+  [
+   "sprocket_L",
+   "root",
+   true
+  ],
+  [
+   "roller_L_1",
+   "root",
+   true
+  ],
+  [
+   "roller_L_2",
+   "root",
+   true
+  ],
+  [
+   "roller_L_3",
+   "root",
+   true
+  ],
+  [
+   "wheel_R_1",
+   "root",
+   true
+  ],
+  [
+   "wheel_R_2",
+   "root",
+   true
+  ],
+  [
+   "wheel_R_3",
+   "root",
+   true
+  ],
+  [
+   "wheel_R_4",
+   "root",
+   true
+  ],
+  [
+   "wheel_R_5",
+   "root",
+   true
+  ],
+  [
+   "wheel_R_6",
+   "root",
+   true
+  ],
+  [
+   "idler_R",
+   "root",
+   true
+  ],
+  [
+   "sprocket_R",
+   "root",
+   true
+  ],
+  [
+   "roller_R_1",
+   "root",
+   true
+  ],
+  [
+   "roller_R_2",
+   "root",
+   true
+  ],
+  [
+   "roller_R_3",
+   "root",
+   true
+  ],
+  [
+   "hull",
+   "root",
+   true
+  ],
+  [
+   "turret",
+   "hull",
+   true
+  ],
+  [
+   "gun",
+   "turret",
+   true
+  ],
+  [
+   "barrel",
+   "gun",
+   true
+  ],
+  [
+   "muzzle",
+   "barrel",
+   false
+  ],
+  [
+   "flash",
+   "muzzle",
+   true
+  ],
+  [
+   "track_L",
+   "root",
+   false
+  ],
+  [
+   "track_R",
+   "root",
+   false
+  ]
+ ]
+}

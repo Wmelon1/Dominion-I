@@ -1,0 +1,174 @@
+{
+ "name": "Vehicle_Carrier",
+ "rig": "Carrier_Rig",
+ "props": {
+  "tk_tank": "Carrier",
+  "tk_kind": "tracked_apc",
+  "tk_turret_bone": "turret",
+  "tk_gun_bone": "gun",
+  "tk_gun_min": -10.0,
+  "tk_gun_max": 55.0,
+  "tk_track_pitch": 0.15,
+  "tk_links_per_side": 77,
+  "tk_drive_clip_speed": 0.3,
+  "tk_barrels": [
+   {
+    "bone": "barrel",
+    "flash": "flash",
+    "recoil": 0.06
+   }
+  ],
+  "tk_wheels": {
+   "wheel_L_1": 0.31035,
+   "wheel_L_2": 0.31035,
+   "wheel_L_3": 0.31035,
+   "wheel_L_4": 0.31035,
+   "wheel_L_5": 0.31035,
+   "sprocket_L": 0.28648,
+   "idler_L": 0.26261,
+   "wheel_R_1": 0.31035,
+   "wheel_R_2": 0.31035,
+   "wheel_R_3": 0.31035,
+   "wheel_R_4": 0.31035,
+   "wheel_R_5": 0.31035,
+   "sprocket_R": 0.28648,
+   "idler_R": 0.26261
+  },
+  "tk_vehicle": "Carrier",
+  "tk_doors": {
+   "ramp": {
+    "axis": "x",
+    "angle": 100.0
+   }
+  },
+  "tk_steer": {}
+ },
+ "meshes": [
+  "Carrier_Body",
+  "Carrier_MuzzleFlash",
+  "Carrier_Track_L",
+  "Carrier_Track_R"
+ ],
+ "bones": [
+  [
+   "root",
+   "",
+   true
+  ],
+  [
+   "wheel_L_1",
+   "root",
+   true
+  ],
+  [
+   "wheel_L_2",
+   "root",
+   true
+  ],
+  [
+   "wheel_L_3",
+   "root",
+   true
+  ],
+  [
+   "wheel_L_4",
+   "root",
+   true
+  ],
+  [
+   "wheel_L_5",
+   "root",
+   true
+  ],
+  [
+   "sprocket_L",
+   "root",
+   true
+  ],
+  [
+   "idler_L",
+   "root",
+   true
+  ],
+  [
+   "wheel_R_1",
+   "root",
+   true
+  ],
+  [
+   "wheel_R_2",
+   "root",
+   true
+  ],
+  [
+   "wheel_R_3",
+   "root",
+   true
+  ],
+  [
+   "wheel_R_4",
+   "root",
+   true
+  ],
+  [
+   "wheel_R_5",
+   "root",
+   true
+  ],
+  [
+   "sprocket_R",
+   "root",
+   true
+  ],
+  [
+   "idler_R",
+   "root",
+   true
+  ],
+  [
+   "hull",
+   "root",
+   true
+  ],
+  [
+   "ramp",
+   "hull",
+   true
+  ],
+  [
+   "turret",
+   "hull",
+   true
+  ],
+  [
+   "gun",
+   "turret",
+   true
+  ],
+  [
+   "barrel",
+   "gun",
+   true
+  ],
+  [
+   "muzzle",
+   "barrel",
+   false
+  ],
+  [
+   "flash",
+   "muzzle",
+   true
+  ],
+  [
+   "track_L",
+   "root",
+   false
+  ],
+  [
+   "track_R",
+   "root",
+   false
+  ]
+ ]
+}

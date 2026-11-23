@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &578780687590892111
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 98f74bf137798ae4594cf6f1a4137e60, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 98f74bf137798ae4594cf6f1a4137e60, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 98f74bf137798ae4594cf6f1a4137e60, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 98f74bf137798ae4594cf6f1a4137e60, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 98f74bf137798ae4594cf6f1a4137e60, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 98f74bf137798ae4594cf6f1a4137e60, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 98f74bf137798ae4594cf6f1a4137e60, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 98f74bf137798ae4594cf6f1a4137e60, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 98f74bf137798ae4594cf6f1a4137e60, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 98f74bf137798ae4594cf6f1a4137e60, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3228796794192153374, guid: 98f74bf137798ae4594cf6f1a4137e60, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 98f74bf137798ae4594cf6f1a4137e60, type: 3}
+      propertyPath: m_Name
+      value: Mech_Aegis
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 98f74bf137798ae4594cf6f1a4137e60, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 7ea947c54c211d14a980f3a25fdc5ed4, type: 2}
+    - target: {fileID: 9140883468023172684, guid: 98f74bf137798ae4594cf6f1a4137e60, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 98f74bf137798ae4594cf6f1a4137e60, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2227572371105242842}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 98f74bf137798ae4594cf6f1a4137e60, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 19851788408809083}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 98f74bf137798ae4594cf6f1a4137e60, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9048080722979055900}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 98f74bf137798ae4594cf6f1a4137e60, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2662685404489320479}
+  m_SourcePrefab: {fileID: 100100000, guid: 98f74bf137798ae4594cf6f1a4137e60, type: 3}
+--- !u!1 &344899385344859934 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 98f74bf137798ae4594cf6f1a4137e60, type: 3}
+  m_PrefabInstance: {fileID: 578780687590892111}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2227572371105242842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344899385344859934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99a70e61ba2bdd14ca99d37cc4438fb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MechKit.MechController
+  faction: 0
+  proceduralBanner: 1
+  windStrength: 1
+  windFrequency: 0.55
+  walkSpeedRef: 2.5
+  runSpeedRef: 6.1
+  runThreshold: 3.9
+  crossFade: 0.25
+  maxYaw: 50
+  maxPitch: 25
+  aimSharpness: 8
+  flashDuration: 0.06
+  recoilDistance: 0.35
+  recoilRecovery: 9
+  gatlingSpinRate: 1440
+--- !u!54 &19851788408809083
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344899385344859934}
+  serializedVersion: 5
+  m_Mass: 40000
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 1
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!136 &9048080722979055900
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344899385344859934}
+  m_Material: {fileID: 13400000, guid: 0ce474830b33fc146b9428119e38c245, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.1
+  m_Height: 9.4
+  m_Direction: 1
+  m_Center: {x: 0, y: 4.7, z: 0}
+--- !u!114 &2662685404489320479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344899385344859934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0de6d4b810c5d6d498062ab254450975, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Dominion.MechVehicle
+  displayName: Aegis Mech
+  unitKey: Mech_Aegis
+  localBounds:
+    m_Center: {x: 0, y: 4.7, z: 0}
+    m_Extent: {x: 2.5, y: 4.7, z: 2}
+  muzzleScale: 0.55
+  impactKind: 3
+  impactScale: 0.45
+  walkSpeed: 2.5
+  runSpeed: 6.1
+  turnRate: 55
+  fireInterval: 0.4
+  tracerWidth: 0.2
+  shotImpulse: 14000
+  podInterval: 0.35
+  hasJets: 0
+  hasPods: 0
+  strikeClip: ShieldBash
+  strikeLength: 1
+  strikeHitAt: 0.38
+  strikeReach: 5
+  strikeRadius: 4.5
+  strikeDv: 5.5
+  strikeLunge: 1
+  stompLength: 1.3333334
+  stompHitAt: 0.73333335
+  stompRadius: 16
+  flySpeed: 26
+  boostSpeed: 46
+  flyAccel: 28
+  jetFuelMax: 14
+  dashSpeed: 26
+  dashBoost: 40
+  dashAccel: 20

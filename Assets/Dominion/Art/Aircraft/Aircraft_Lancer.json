@@ -1,0 +1,187 @@
+{
+ "name": "Aircraft_Lancer",
+ "rig": "Lancer_Rig",
+ "props": {
+  "tk_aircraft": "Lancer",
+  "tk_kind": "early_jet",
+  "tk_controls": {
+   "aileron_L": {
+    "axis": "roll",
+    "max": 18
+   },
+   "aileron_R": {
+    "axis": "roll",
+    "max": 18
+   },
+   "elevator_L": {
+    "axis": "pitch",
+    "max": 20
+   },
+   "elevator_R": {
+    "axis": "pitch",
+    "max": 20
+   },
+   "rudder": {
+    "axis": "yaw",
+    "max": 20
+   }
+  },
+  "tk_gears": {
+   "gear_N": {
+    "axis": "x",
+    "angle": 95
+   },
+   "gear_L": {
+    "axis": "y",
+    "angle": -88
+   },
+   "gear_R": {
+    "axis": "y",
+    "angle": 88
+   }
+  },
+  "tk_wheels": {
+   "wheel_N": 0.27,
+   "wheel_L": 0.33,
+   "wheel_R": 0.33
+  },
+  "tk_canopy": {
+   "mode": "slide",
+   "travel": 0.85
+  },
+  "tk_prop": {},
+  "tk_stores": [],
+  "tk_muzzles": [
+   "muzzle_1",
+   "muzzle_2",
+   "muzzle_3",
+   "muzzle_4"
+  ],
+  "tk_afterburners": [
+   "afterburner"
+  ]
+ },
+ "meshes": [
+  "Lancer_Afterburner",
+  "Lancer_Body",
+  "Lancer_Canopy",
+  "Lancer_MuzzleFlash"
+ ],
+ "bones": [
+  [
+   "root",
+   "",
+   true
+  ],
+  [
+   "body",
+   "root",
+   true
+  ],
+  [
+   "aileron_L",
+   "body",
+   true
+  ],
+  [
+   "aileron_R",
+   "body",
+   true
+  ],
+  [
+   "elevator_L",
+   "body",
+   true
+  ],
+  [
+   "elevator_R",
+   "body",
+   true
+  ],
+  [
+   "rudder",
+   "body",
+   true
+  ],
+  [
+   "canopy",
+   "body",
+   true
+  ],
+  [
+   "muzzle_1",
+   "body",
+   false
+  ],
+  [
+   "flash_1",
+   "muzzle_1",
+   true
+  ],
+  [
+   "muzzle_2",
+   "body",
+   false
+  ],
+  [
+   "flash_2",
+   "muzzle_2",
+   true
+  ],
+  [
+   "muzzle_3",
+   "body",
+   false
+  ],
+  [
+   "flash_3",
+   "muzzle_3",
+   true
+  ],
+  [
+   "muzzle_4",
+   "body",
+   false
+  ],
+  [
+   "flash_4",
+   "muzzle_4",
+   true
+  ],
+  [
+   "gear_N",
+   "body",
+   true
+  ],
+  [
+   "wheel_N",
+   "gear_N",
+   true
+  ],
+  [
+   "gear_L",
+   "body",
+   true
+  ],
+  [
+   "wheel_L",
+   "gear_L",
+   true
+  ],
+  [
+   "gear_R",
+   "body",
+   true
+  ],
+  [
+   "wheel_R",
+   "gear_R",
+   true
+  ],
+  [
+   "afterburner",
+   "body",
+   true
+  ]
+ ]
+}

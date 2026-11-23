@@ -1,0 +1,93 @@
+{
+ "PJ_Copper": {
+  "stem": "PJCopper",
+  "tint": "ffffff",
+  "rough": 0.3,
+  "metal": 1.0,
+  "kind": "tex"
+ },
+ "PJ_Brass": {
+  "stem": "PJBrass",
+  "tint": "ffffff",
+  "rough": 0.3,
+  "metal": 1.0,
+  "kind": "tex"
+ },
+ "PJ_Steel": {
+  "stem": "PJMetal",
+  "tint": "a2a7ad",
+  "rough": 0.35,
+  "metal": 1.0,
+  "kind": "tex"
+ },
+ "PJ_Tungsten": {
+  "stem": "PJMetal",
+  "tint": "6a6e75",
+  "rough": 0.3,
+  "metal": 1.0,
+  "kind": "tex"
+ },
+ "PJ_Olive": {
+  "stem": "PJPaint",
+  "tint": "707a4a",
+  "rough": 0.55,
+  "metal": 0.0,
+  "kind": "tex"
+ },
+ "PJ_Grey": {
+  "stem": "PJPaint",
+  "tint": "9198a0",
+  "rough": 0.5,
+  "metal": 0.0,
+  "kind": "tex"
+ },
+ "PJ_Yellow": {
+  "stem": "PJPaint",
+  "tint": "e8b52a",
+  "rough": 0.5,
+  "metal": 0.0,
+  "kind": "tex"
+ },
+ "PJ_Red": {
+  "stem": "PJPaint",
+  "tint": "a32b25",
+  "rough": 0.5,
+  "metal": 0.0,
+  "kind": "tex"
+ },
+ "PJ_White": {
+  "stem": "PJPaint",
+  "tint": "f2f3ee",
+  "rough": 0.45,
+  "metal": 0.0,
+  "kind": "tex"
+ },
+ "PJ_Black": {
+  "stem": "PJPaint",
+  "tint": "2c2d30",
+  "rough": 0.6,
+  "metal": 0.0,
+  "kind": "tex"
+ },
+ "PJ_Seeker": {
+  "stem": null,
+  "tint": "1a2028",
+  "rough": 0.05,
+  "metal": 0.5,
+  "kind": "flat"
+ },
+ "PJ_Tracer": {
+  "stem": null,
+  "tint": "ff5a24",
+  "rough": 0.3,
+  "metal": 0.0,
+  "kind": "glow"
+ },
+ "PJ_RailGlow": {
+  "stem": null,
+  "tint": "5cf2ff",
+  "rough": 0.3,
+  "metal": 0.0,
+  "kind": "glow"
+ }
+}

@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7843475976274613178
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 64de83b666c3c014a85fba25eecdeb91, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 64de83b666c3c014a85fba25eecdeb91, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 64de83b666c3c014a85fba25eecdeb91, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 64de83b666c3c014a85fba25eecdeb91, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 64de83b666c3c014a85fba25eecdeb91, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 64de83b666c3c014a85fba25eecdeb91, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 64de83b666c3c014a85fba25eecdeb91, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 64de83b666c3c014a85fba25eecdeb91, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 64de83b666c3c014a85fba25eecdeb91, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 64de83b666c3c014a85fba25eecdeb91, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 207151679194815976, guid: 64de83b666c3c014a85fba25eecdeb91, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 64de83b666c3c014a85fba25eecdeb91, type: 3}
+      propertyPath: m_Name
+      value: Aircraft_Falcon
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703320758722510474, guid: 64de83b666c3c014a85fba25eecdeb91, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5866666021909216657, guid: 64de83b666c3c014a85fba25eecdeb91, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 64de83b666c3c014a85fba25eecdeb91, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 983780866678630129}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 64de83b666c3c014a85fba25eecdeb91, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1026379739663555960}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 64de83b666c3c014a85fba25eecdeb91, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6837655667338448281}
+  m_SourcePrefab: {fileID: 100100000, guid: 64de83b666c3c014a85fba25eecdeb91, type: 3}
+--- !u!1 &6924554949592723179 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 64de83b666c3c014a85fba25eecdeb91, type: 3}
+  m_PrefabInstance: {fileID: 7843475976274613178}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &983780866678630129
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6924554949592723179}
+  serializedVersion: 5
+  m_Mass: 1900
+  m_LinearDamping: 0
+  m_AngularDamping: 0.6
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 3
+--- !u!65 &1026379739663555960
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6924554949592723179}
+  m_Material: {fileID: 13400000, guid: 0ce474830b33fc146b9428119e38c245, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 9.64, y: 1.3800006, z: 8.209999}
+  m_Center: {x: 0, y: 0.6600001, z: -0.5450001}
+--- !u!114 &6837655667338448281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6924554949592723179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad31f0f305784d5498a695a31f9c47cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Dominion.AircraftVehicle
+  displayName: Falcon Biplane
+  unitKey: Aircraft_Falcon
+  localBounds:
+    m_Center: {x: 0, y: -0.07500005, z: -0.5450001}
+    m_Extent: {x: 4.82, y: 1.4250004, z: 4.1049995}
+  muzzleScale: 0.3
+  impactKind: 1
+  impactScale: 0.5
+  surfaces:
+  - bone: aileron_L
+    axis: roll
+    max: 20
+  - bone: aileron_R
+    axis: roll
+    max: 20
+  - bone: elevator_L
+    axis: pitch
+    max: 25
+  - bone: elevator_R
+    axis: pitch
+    max: 25
+  - bone: rudder
+    axis: yaw
+    max: 25
+  gears: []
+  wheelBones:
+  - wheel_L
+  - wheel_R
+  - wheel_T
+  wheelRadii:
+  - 0.3
+  - 0.3
+  - 0.1
+  canopyMode: slide
+  canopyTravel: 0.75
+  hasProp: 1
+  muzzleBones:
+  - muzzle_1
+  - muzzle_2
+  - muzzle_3
+  - muzzle_4
+  afterburnerBones: []
+  fireInterval: 0.06
+  maxSpeed: 78
+  takeoffSpeed: 30
+  thrustToWeight: 0.36
+  pitchRate: 58
+  rollRate: 140
+  yawRate: 28
+  gearTravel: 0.22

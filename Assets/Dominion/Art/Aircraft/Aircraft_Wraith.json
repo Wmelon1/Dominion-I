@@ -1,0 +1,194 @@
+{
+ "name": "Aircraft_Wraith",
+ "rig": "Wraith_Rig",
+ "props": {
+  "tk_aircraft": "Wraith",
+  "tk_kind": "modern_multirole",
+  "tk_controls": {
+   "aileron_L": {
+    "axis": "roll",
+    "max": 18
+   },
+   "aileron_R": {
+    "axis": "roll",
+    "max": 18
+   },
+   "elevator_L": {
+    "axis": "pitch",
+    "max": 20
+   },
+   "elevator_R": {
+    "axis": "pitch",
+    "max": 20
+   },
+   "rudder_L": {
+    "axis": "yaw",
+    "max": 25
+   },
+   "rudder_R": {
+    "axis": "yaw",
+    "max": 25
+   }
+  },
+  "tk_gears": {
+   "gear_N": {
+    "axis": "x",
+    "angle": 95
+   },
+   "gear_L": {
+    "axis": "y",
+    "angle": -88
+   },
+   "gear_R": {
+    "axis": "y",
+    "angle": 88
+   }
+  },
+  "tk_wheels": {
+   "wheel_N": 0.3,
+   "wheel_L": 0.4,
+   "wheel_R": 0.4
+  },
+  "tk_canopy": {
+   "mode": "hinge",
+   "travel": 32
+  },
+  "tk_prop": {},
+  "tk_stores": [
+   "store_1",
+   "store_2",
+   "store_3",
+   "store_4"
+  ],
+  "tk_muzzles": [
+   "muzzle_1"
+  ],
+  "tk_afterburners": [
+   "afterburner_L",
+   "afterburner_R"
+  ]
+ },
+ "meshes": [
+  "Wraith_Afterburner",
+  "Wraith_Body",
+  "Wraith_Canopy",
+  "Wraith_MuzzleFlash"
+ ],
+ "bones": [
+  [
+   "root",
+   "",
+   true
+  ],
+  [
+   "body",
+   "root",
+   true
+  ],
+  [
+   "aileron_L",
+   "body",
+   true
+  ],
+  [
+   "aileron_R",
+   "body",
+   true
+  ],
+  [
+   "elevator_L",
+   "body",
+   true
+  ],
+  [
+   "elevator_R",
+   "body",
+   true
+  ],
+  [
+   "rudder_L",
+   "body",
+   true
+  ],
+  [
+   "rudder_R",
+   "body",
+   true
+  ],
+  [
+   "canopy",
+   "body",
+   true
+  ],
+  [
+   "muzzle_1",
+   "body",
+   false
+  ],
+  [
+   "flash_1",
+   "muzzle_1",
+   true
+  ],
+  [
+   "store_1",
+   "body",
+   true
+  ],
+  [
+   "store_2",
+   "body",
+   true
+  ],
+  [
+   "store_3",
+   "body",
+   true
+  ],
+  [
+   "store_4",
+   "body",
+   true
+  ],
+  [
+   "gear_N",
+   "body",
+   true
+  ],
+  [
+   "wheel_N",
+   "gear_N",
+   true
+  ],
+  [
+   "gear_L",
+   "body",
+   true
+  ],
+  [
+   "wheel_L",
+   "gear_L",
+   true
+  ],
+  [
+   "gear_R",
+   "body",
+   true
+  ],
+  [
+   "wheel_R",
+   "gear_R",
+   true
+  ],
+  [
+   "afterburner_L",
+   "body",
+   true
+  ],
+  [
+   "afterburner_R",
+   "body",
+   true
+  ]
+ ]
+}

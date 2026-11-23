@@ -1,0 +1,149 @@
+{
+ "name": "Tank_Scout",
+ "rig": "Scout_Rig",
+ "props": {
+  "tk_tank": "Scout",
+  "tk_kind": "light_scout",
+  "tk_turret_bone": "turret",
+  "tk_gun_bone": "gun",
+  "tk_gun_min": -10.0,
+  "tk_gun_max": 35.0,
+  "tk_track_pitch": 0.16,
+  "tk_links_per_side": 78,
+  "tk_drive_clip_speed": 0.32,
+  "tk_barrels": [
+   {
+    "bone": "barrel",
+    "flash": "flash",
+    "recoil": 0.12
+   }
+  ],
+  "tk_wheels": {
+   "wheel_L_1": 0.33104,
+   "wheel_L_2": 0.33104,
+   "wheel_L_3": 0.33104,
+   "wheel_L_4": 0.33104,
+   "idler_L": 0.21645,
+   "sprocket_L": 0.28011,
+   "wheel_R_1": 0.33104,
+   "wheel_R_2": 0.33104,
+   "wheel_R_3": 0.33104,
+   "wheel_R_4": 0.33104,
+   "idler_R": 0.21645,
+   "sprocket_R": 0.28011
+  }
+ },
+ "meshes": [
+  "Scout_Body",
+  "Scout_MuzzleFlash",
+  "Scout_Track_L",
+  "Scout_Track_R"
+ ],
+ "bones": [
+  [
+   "root",
+   "",
+   true
+  ],
+  [
+   "wheel_L_1",
+   "root",
+   true
+  ],
+  [
+   "wheel_L_2",
+   "root",
+   true
+  ],
+  [
+   "wheel_L_3",
+   "root",
+   true
+  ],
+  [
+   "wheel_L_4",
+   "root",
+   true
+  ],
+  [
+   "idler_L",
+   "root",
+   true
+  ],
+  [
+   "sprocket_L",
+   "root",
+   true
+  ],
+  [
+   "wheel_R_1",
+   "root",
+   true
+  ],
+  [
+   "wheel_R_2",
+   "root",
+   true
+  ],
+  [
+   "wheel_R_3",
+   "root",
+   true
+  ],
+  [
+   "wheel_R_4",
+   "root",
+   true
+  ],
+  [
+   "idler_R",
+   "root",
+   true
+  ],
+  [
+   "sprocket_R",
+   "root",
+   true
+  ],
+  [
+   "hull",
+   "root",
+   true
+  ],
+  [
+   "turret",
+   "hull",
+   true
+  ],
+  [
+   "gun",
+   "turret",
+   true
+  ],
+  [
+   "barrel",
+   "gun",
+   true
+  ],
+  [
+   "muzzle",
+   "barrel",
+   false
+  ],
+  [
+   "flash",
+   "muzzle",
+   true
+  ],
+  [
+   "track_L",
+   "root",
+   false
+  ],
+  [
+   "track_R",
+   "root",
+   false
+  ]
+ ]
+}

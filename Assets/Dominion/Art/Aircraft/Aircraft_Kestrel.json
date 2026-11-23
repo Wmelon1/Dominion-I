@@ -1,0 +1,138 @@
+{
+ "name": "Aircraft_Kestrel",
+ "rig": "Kestrel_Rig",
+ "props": {
+  "tk_flight": {
+   "stall_kmh": 70,
+   "max_kmh": 190
+  },
+  "tk_aircraft": "Kestrel",
+  "tk_kind": "biplane_ww1",
+  "tk_controls": {
+   "aileron_L": {
+    "axis": "roll",
+    "max": 20
+   },
+   "aileron_R": {
+    "axis": "roll",
+    "max": 20
+   },
+   "elevator_L": {
+    "axis": "pitch",
+    "max": 25
+   },
+   "elevator_R": {
+    "axis": "pitch",
+    "max": 25
+   },
+   "rudder": {
+    "axis": "yaw",
+    "max": 25
+   }
+  },
+  "tk_gears": {},
+  "tk_wheels": {
+   "wheel_L": 0.33,
+   "wheel_R": 0.33
+  },
+  "tk_canopy": {},
+  "tk_prop": {
+   "hub": [
+    0.0,
+    -2.8299999237060547,
+    0.019999999552965164
+   ],
+   "R": 1.25,
+   "blades": 2
+  },
+  "tk_stores": [],
+  "tk_muzzles": [
+   "muzzle_1",
+   "muzzle_2"
+  ],
+  "tk_afterburners": []
+ },
+ "meshes": [
+  "Kestrel_Body",
+  "Kestrel_Canopy",
+  "Kestrel_MuzzleFlash",
+  "Kestrel_PropBlur"
+ ],
+ "bones": [
+  [
+   "root",
+   "",
+   true
+  ],
+  [
+   "body",
+   "root",
+   true
+  ],
+  [
+   "aileron_L",
+   "body",
+   true
+  ],
+  [
+   "aileron_R",
+   "body",
+   true
+  ],
+  [
+   "elevator_L",
+   "body",
+   true
+  ],
+  [
+   "elevator_R",
+   "body",
+   true
+  ],
+  [
+   "rudder",
+   "body",
+   true
+  ],
+  [
+   "wheel_L",
+   "body",
+   true
+  ],
+  [
+   "wheel_R",
+   "body",
+   true
+  ],
+  [
+   "muzzle_1",
+   "body",
+   false
+  ],
+  [
+   "flash_1",
+   "muzzle_1",
+   true
+  ],
+  [
+   "muzzle_2",
+   "body",
+   false
+  ],
+  [
+   "flash_2",
+   "muzzle_2",
+   true
+  ],
+  [
+   "prop",
+   "body",
+   true
+  ],
+  [
+   "prop_blur",
+   "body",
+   true
+  ]
+ ]
+}

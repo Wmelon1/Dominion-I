@@ -1,0 +1,193 @@
+{
+ "Tree_Oak": {
+  "kind": "tree",
+  "radius": 0.3,
+  "height": 11,
+  "tris": [
+   572,
+   142
+  ]
+ },
+ "Tree_Maple": {
+  "kind": "tree",
+  "radius": 0.25,
+  "height": 8.5,
+  "tris": [
+   572,
+   142
+  ]
+ },
+ "Tree_Street": {
+  "kind": "tree",
+  "radius": 0.2,
+  "height": 7,
+  "tris": [
+   492,
+   128
+  ]
+ },
+ "Tree_Pine": {
+  "kind": "tree",
+  "radius": 0.3,
+  "height": 15,
+  "tris": [
+   325,
+   77
+  ]
+ },
+ "Tree_PineTall": {
+  "kind": "tree",
+  "radius": 0.35,
+  "height": 21,
+  "tris": [
+   325,
+   77
+  ]
+ },
+ "Car_Sedan": {
+  "kind": "car",
+  "size": [
+   1.8,
+   1.42,
+   4.6
+  ],
+  "tris": [
+   222,
+   118
+  ]
+ },
+ "Car_SUV": {
+  "kind": "car",
+  "size": [
+   1.9,
+   1.75,
+   4.7
+  ],
+  "tris": [
+   226,
+   118
+  ]
+ },
+ "Car_Van": {
+  "kind": "car",
+  "size": [
+   2.0,
+   2.25,
+   5.2
+  ],
+  "tris": [
+   226,
+   118
+  ]
+ },
+ "Car_Bus": {
+  "kind": "car",
+  "size": [
+   2.55,
+   3.1,
+   11.8
+  ],
+  "tris": [
+   246,
+   118
+  ]
+ },
+ "Wreck_Sedan": {
+  "kind": "wreck",
+  "size": [
+   1.8,
+   1.25,
+   4.6
+  ],
+  "tris": [
+   190,
+   86
+  ]
+ },
+ "Wreck_SUV": {
+  "kind": "wreck",
+  "size": [
+   1.9,
+   1.57,
+   4.7
+  ],
+  "tris": [
+   194,
+   86
+  ]
+ },
+ "Wreck_Van": {
+  "kind": "wreck",
+  "size": [
+   2.0,
+   2.07,
+   5.2
+  ],
+  "tris": [
+   194,
+   86
+  ]
+ },
+ "Wreck_Bus": {
+  "kind": "wreck",
+  "size": [
+   2.55,
+   2.92,
+   11.8
+  ],
+  "tris": [
+   214,
+   86
+  ]
+ },
+ "Prop_StreetLamp": {
+  "kind": "lamp",
+  "tris": [
+   86,
+   45
+  ]
+ },
+ "Prop_TrafficLight": {
+  "kind": "signal",
+  "tris": [
+   86,
+   59
+  ]
+ },
+ "Prop_Bench": {
+  "kind": "bench",
+  "size": [
+   1.9,
+   0.95,
+   0.6
+  ],
+  "tris": [
+   84,
+   48
+  ]
+ },
+ "Prop_Jersey": {
+  "kind": "barrier",
+  "size": [
+   3.6,
+   0.81,
+   0.6
+  ],
+  "tris": [
+   28,
+   28
+  ]
+ },
+ "Prop_TWall": {
+  "kind": "twall",
+  "size": [
+   1.5,
+   3.6,
+   1.2
+  ],
+  "tris": [
+   28,
+   28
+  ]
+ }
+}

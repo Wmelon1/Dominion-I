@@ -1,0 +1,216 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7311198902707856027
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 37ac4aa6c0edc454faf47cb1bdd1149a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 37ac4aa6c0edc454faf47cb1bdd1149a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 37ac4aa6c0edc454faf47cb1bdd1149a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 37ac4aa6c0edc454faf47cb1bdd1149a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 37ac4aa6c0edc454faf47cb1bdd1149a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 37ac4aa6c0edc454faf47cb1bdd1149a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 37ac4aa6c0edc454faf47cb1bdd1149a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 37ac4aa6c0edc454faf47cb1bdd1149a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 37ac4aa6c0edc454faf47cb1bdd1149a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 37ac4aa6c0edc454faf47cb1bdd1149a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 37ac4aa6c0edc454faf47cb1bdd1149a, type: 3}
+      propertyPath: m_Name
+      value: Vehicle_Carrier
+      objectReference: {fileID: 0}
+    - target: {fileID: 1960137962039202071, guid: 37ac4aa6c0edc454faf47cb1bdd1149a, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5866666021909216657, guid: 37ac4aa6c0edc454faf47cb1bdd1149a, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 37ac4aa6c0edc454faf47cb1bdd1149a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5637272455358654842}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 37ac4aa6c0edc454faf47cb1bdd1149a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7116192310953872958}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 37ac4aa6c0edc454faf47cb1bdd1149a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 938912861205412966}
+  m_SourcePrefab: {fileID: 100100000, guid: 37ac4aa6c0edc454faf47cb1bdd1149a, type: 3}
+--- !u!137 &3740814426330282156 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -2982347994718660041, guid: 37ac4aa6c0edc454faf47cb1bdd1149a, type: 3}
+  m_PrefabInstance: {fileID: 7311198902707856027}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &3772843106713192456 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 5849415580423776915, guid: 37ac4aa6c0edc454faf47cb1bdd1149a, type: 3}
+  m_PrefabInstance: {fileID: 7311198902707856027}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7617822807487782858 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 37ac4aa6c0edc454faf47cb1bdd1149a, type: 3}
+  m_PrefabInstance: {fileID: 7311198902707856027}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &5637272455358654842
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7617822807487782858}
+  serializedVersion: 5
+  m_Mass: 24000
+  m_LinearDamping: 0
+  m_AngularDamping: 0.6
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 3
+--- !u!65 &7116192310953872958
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7617822807487782858}
+  m_Material: {fileID: 13400000, guid: 0ce474830b33fc146b9428119e38c245, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.0150003, y: 3.564648, z: 5.623188}
+  m_Center: {x: 0.037499905, y: 2.267676, z: 0.08761597}
+--- !u!114 &938912861205412966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7617822807487782858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 016f470a7013c774398a80696ee40d38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Dominion.TrackedVehicle
+  displayName: Carrier APC
+  unitKey: Vehicle_Carrier
+  localBounds:
+    m_Center: {x: 0.037499905, y: 2.0248635, z: 0.08761597}
+    m_Extent: {x: 1.5075002, y: 2.025137, z: 2.811594}
+  muzzleScale: 0.18
+  impactKind: 1
+  impactScale: 0.6
+  trackPitch: 0.15
+  wheelBones:
+  - wheel_L_1
+  - wheel_L_2
+  - wheel_L_3
+  - wheel_L_4
+  - wheel_L_5
+  - sprocket_L
+  - idler_L
+  - wheel_R_1
+  - wheel_R_2
+  - wheel_R_3
+  - wheel_R_4
+  - wheel_R_5
+  - sprocket_R
+  - idler_R
+  wheelRadii:
+  - 0.31035
+  - 0.31035
+  - 0.31035
+  - 0.31035
+  - 0.31035
+  - 0.28648
+  - 0.26261
+  - 0.31035
+  - 0.31035
+  - 0.31035
+  - 0.31035
+  - 0.31035
+  - 0.28648
+  - 0.26261
+  trackLeft: {fileID: 3740814426330282156}
+  trackRight: {fileID: 3772843106713192456}
+  turretBone: turret
+  gunBone: gun
+  gunMin: -10
+  gunMax: 55
+  barrelBones:
+  - barrel
+  muzzleBones:
+  - muzzle
+  flashBones:
+  - flash
+  recoils:
+  - 0.06
+  fireInterval: 0.11
+  tracerWidth: 0.08
+  radarBone: 
+  turretYawSpeed: 70
+  turretPitchSpeed: 50
+  ballistic: 0
+  shellSpeed: 110
+  doorBone: ramp
+  doorAxis: x
+  doorAngle: 100
+  maxSpeed: 22
+  maxReverse: 8.8
+  maxTurn: 46
+  engineAccel: 6
+  suspensionTravel: 0.15

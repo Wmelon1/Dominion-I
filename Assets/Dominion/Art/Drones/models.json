@@ -1,0 +1,20 @@
+{
+ "Drone_Wasp": {
+  "rotors": 4,
+  "prop_r": 0.27,
+  "span": 1.954,
+  "tris": 11196
+ },
+ "Drone_Mender": {
+  "rotors": 6,
+  "prop_r": 0.28,
+  "span": 1.96,
+  "tris": 17836
+ },
+ "Drone_Kite": {
+  "rotors": 2,
+  "prop_r": 0.252,
+  "span": 1.702,
+  "tris": 10868
+ }
+}

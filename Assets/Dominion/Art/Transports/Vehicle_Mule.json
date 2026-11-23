@@ -1,0 +1,86 @@
+{
+ "name": "Vehicle_Mule",
+ "rig": "Mule_Rig",
+ "props": {
+  "tk_kind": "cargo_truck_6x6",
+  "tk_vehicle": "Mule",
+  "tk_doors": {
+   "tailgate": {
+    "axis": "x",
+    "angle": 95.0
+   }
+  },
+  "tk_steer": {
+   "steer_1_L": 32.0,
+   "steer_1_R": 32.0
+  },
+  "tk_wheels": {
+   "wheel_1_L": 0.55,
+   "wheel_1_R": 0.55,
+   "wheel_2_L": 0.55,
+   "wheel_2_R": 0.55,
+   "wheel_3_L": 0.55,
+   "wheel_3_R": 0.55
+  }
+ },
+ "meshes": [
+  "Mule_Body"
+ ],
+ "bones": [
+  [
+   "root",
+   "",
+   true
+  ],
+  [
+   "steer_1_L",
+   "root",
+   true
+  ],
+  [
+   "wheel_1_L",
+   "steer_1_L",
+   true
+  ],
+  [
+   "steer_1_R",
+   "root",
+   true
+  ],
+  [
+   "wheel_1_R",
+   "steer_1_R",
+   true
+  ],
+  [
+   "wheel_2_L",
+   "root",
+   true
+  ],
+  [
+   "wheel_2_R",
+   "root",
+   true
+  ],
+  [
+   "wheel_3_L",
+   "root",
+   true
+  ],
+  [
+   "wheel_3_R",
+   "root",
+   true
+  ],
+  [
+   "body",
+   "root",
+   true
+  ],
+  [
+   "tailgate",
+   "body",
+   true
+  ]
+ ]
+}

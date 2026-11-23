@@ -1,0 +1,170 @@
+{
+ "name": "Aircraft_Falcon",
+ "rig": "Falcon_Rig",
+ "props": {
+  "tk_aircraft": "Falcon",
+  "tk_kind": "biplane_1930s",
+  "tk_controls": {
+   "aileron_L": {
+    "axis": "roll",
+    "max": 20
+   },
+   "aileron_R": {
+    "axis": "roll",
+    "max": 20
+   },
+   "elevator_L": {
+    "axis": "pitch",
+    "max": 25
+   },
+   "elevator_R": {
+    "axis": "pitch",
+    "max": 25
+   },
+   "rudder": {
+    "axis": "yaw",
+    "max": 25
+   }
+  },
+  "tk_gears": {},
+  "tk_wheels": {
+   "wheel_L": 0.3,
+   "wheel_R": 0.3,
+   "wheel_T": 0.1
+  },
+  "tk_canopy": {
+   "mode": "slide",
+   "travel": 0.75
+  },
+  "tk_prop": {
+   "hub": [
+    0.0,
+    -3.200000047683716,
+    0.0
+   ],
+   "R": 1.35,
+   "blades": 3
+  },
+  "tk_stores": [],
+  "tk_muzzles": [
+   "muzzle_1",
+   "muzzle_2",
+   "muzzle_3",
+   "muzzle_4"
+  ],
+  "tk_afterburners": []
+ },
+ "meshes": [
+  "Falcon_Body",
+  "Falcon_Canopy",
+  "Falcon_MuzzleFlash",
+  "Falcon_PropBlur"
+ ],
+ "bones": [
+  [
+   "root",
+   "",
+   true
+  ],
+  [
+   "body",
+   "root",
+   true
+  ],
+  [
+   "aileron_L",
+   "body",
+   true
+  ],
+  [
+   "aileron_R",
+   "body",
+   true
+  ],
+  [
+   "elevator_L",
+   "body",
+   true
+  ],
+  [
+   "elevator_R",
+   "body",
+   true
+  ],
+  [
+   "rudder",
+   "body",
+   true
+  ],
+  [
+   "wheel_L",
+   "body",
+   true
+  ],
+  [
+   "wheel_R",
+   "body",
+   true
+  ],
+  [
+   "wheel_T",
+   "body",
+   true
+  ],
+  [
+   "muzzle_1",
+   "body",
+   false
+  ],
+  [
+   "flash_1",
+   "muzzle_1",
+   true
+  ],
+  [
+   "muzzle_2",
+   "body",
+   false
+  ],
+  [
+   "flash_2",
+   "muzzle_2",
+   true
+  ],
+  [
+   "muzzle_3",
+   "body",
+   false
+  ],
+  [
+   "flash_3",
+   "muzzle_3",
+   true
+  ],
+  [
+   "muzzle_4",
+   "body",
+   false
+  ],
+  [
+   "flash_4",
+   "muzzle_4",
+   true
+  ],
+  [
+   "canopy",
+   "body",
+   true
+  ],
+  [
+   "prop",
+   "body",
+   true
+  ],
+  [
+   "prop_blur",
+   "body",
+   true
+  ]
+ ]
+}

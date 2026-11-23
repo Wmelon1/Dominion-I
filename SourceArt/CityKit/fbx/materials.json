@@ -1,0 +1,172 @@
+{
+ "CK_Bark": {
+  "stem": "Bark",
+  "folder": "City",
+  "tint": "ffffff",
+  "clip": false,
+  "flat": [
+   0.5,
+   0.0
+  ]
+ },
+ "CK_LeavesBroad": {
+  "stem": "LeavesBroad",
+  "folder": "City",
+  "tint": "ffffff",
+  "clip": true,
+  "flat": [
+   0.5,
+   0.0
+  ]
+ },
+ "CK_LeavesConifer": {
+  "stem": "LeavesConifer",
+  "folder": "City",
+  "tint": "ffffff",
+  "clip": true,
+  "flat": [
+   0.5,
+   0.0
+  ]
+ },
+ "CK_LeavesAutumn": {
+  "stem": "LeavesAutumn",
+  "folder": "City",
+  "tint": "ffffff",
+  "clip": true,
+  "flat": [
+   0.5,
+   0.0
+  ]
+ },
+ "CK_CarPaint": {
+  "stem": "CarPaint",
+  "folder": "City",
+  "tint": "b8bcc2",
+  "clip": false,
+  "flat": [
+   0.5,
+   0.0
+  ]
+ },
+ "CK_Burnt": {
+  "stem": "Burnt",
+  "folder": "City",
+  "tint": "ffffff",
+  "clip": false,
+  "flat": [
+   0.5,
+   0.0
+  ]
+ },
+ "CK_CarGlass": {
+  "stem": null,
+  "folder": null,
+  "tint": "1c2228",
+  "clip": false,
+  "flat": [
+   0.08,
+   0.0
+  ]
+ },
+ "CK_Rubber": {
+  "stem": null,
+  "folder": null,
+  "tint": "1a1a1a",
+  "clip": false,
+  "flat": [
+   0.85,
+   0.0
+  ]
+ },
+ "CK_Chrome": {
+  "stem": null,
+  "folder": null,
+  "tint": "b4b8bc",
+  "clip": false,
+  "flat": [
+   0.2,
+   1.0
+  ]
+ },
+ "CK_Lights": {
+  "stem": null,
+  "folder": null,
+  "tint": "f2ead8",
+  "clip": false,
+  "flat": [
+   0.1,
+   0.0
+  ]
+ },
+ "CK_TailLights": {
+  "stem": null,
+  "folder": null,
+  "tint": "8a1410",
+  "clip": false,
+  "flat": [
+   0.2,
+   0.0
+  ]
+ },
+ "CK_CarInterior": {
+  "stem": null,
+  "folder": null,
+  "tint": "2a2826",
+  "clip": false,
+  "flat": [
+   0.8,
+   0.0
+  ]
+ },
+ "BLD_MetalDark": {
+  "stem": "MetalDark",
+  "folder": "Buildings",
+  "tint": "ffffff",
+  "clip": false,
+  "flat": [
+   0.5,
+   0.0
+  ]
+ },
+ "BLD_Galvanized": {
+  "stem": "Galvanized",
+  "folder": "Buildings",
+  "tint": "ffffff",
+  "clip": false,
+  "flat": [
+   0.5,
+   0.0
+  ]
+ },
+ "BLD_Concrete": {
+  "stem": "Concrete",
+  "folder": "Buildings",
+  "tint": "ffffff",
+  "clip": false,
+  "flat": [
+   0.5,
+   0.0
+  ]
+ },
+ "BLD_Wood": {
+  "stem": "Wood",
+  "folder": "Buildings",
+  "tint": "ffffff",
+  "clip": false,
+  "flat": [
+   0.5,
+   0.0
+  ]
+ },
+ "BLD_TrimGreen": {
+  "stem": "Trim",
+  "folder": "Buildings",
+  "tint": "4f6a58",
+  "clip": false,
+  "flat": [
+   0.5,
+   0.0
+  ]
+ }
+}

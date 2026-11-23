@@ -1,0 +1,104 @@
+{
+ "name": "Vehicle_Bastion",
+ "rig": "Bastion_Rig",
+ "props": {
+  "tk_turret_bone": "turret",
+  "tk_gun_bone": "gun",
+  "tk_gun_min": -10.0,
+  "tk_gun_max": 60.0,
+  "tk_kind": "armoured_carrier_4x4",
+  "tk_vehicle": "Bastion",
+  "tk_doors": {
+   "door_rear": {
+    "axis": "y",
+    "angle": 100.0
+   }
+  },
+  "tk_steer": {
+   "steer_1_L": 30.0,
+   "steer_1_R": 30.0
+  },
+  "tk_wheels": {
+   "wheel_1_L": 0.62,
+   "wheel_1_R": 0.62,
+   "wheel_2_L": 0.62,
+   "wheel_2_R": 0.62
+  }
+ },
+ "meshes": [
+  "Bastion_Body",
+  "Bastion_MuzzleFlash"
+ ],
+ "bones": [
+  [
+   "root",
+   "",
+   true
+  ],
+  [
+   "steer_1_L",
+   "root",
+   true
+  ],
+  [
+   "wheel_1_L",
+   "steer_1_L",
+   true
+  ],
+  [
+   "steer_1_R",
+   "root",
+   true
+  ],
+  [
+   "wheel_1_R",
+   "steer_1_R",
+   true
+  ],
+  [
+   "wheel_2_L",
+   "root",
+   true
+  ],
+  [
+   "wheel_2_R",
+   "root",
+   true
+  ],
+  [
+   "body",
+   "root",
+   true
+  ],
+  [
+   "door_rear",
+   "body",
+   true
+  ],
+  [
+   "turret",
+   "body",
+   true
+  ],
+  [
+   "gun",
+   "turret",
+   true
+  ],
+  [
+   "barrel",
+   "gun",
+   true
+  ],
+  [
+   "muzzle",
+   "barrel",
+   false
+  ],
+  [
+   "flash",
+   "muzzle",
+   true
+  ]
+ ]
+}
