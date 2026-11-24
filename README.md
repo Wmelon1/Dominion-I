@@ -81,7 +81,9 @@ Tanks, APCs, trucks and mechs **crush parked cars** they drive over, so cars slo
 
 ### Intel, the all-out push and transports
 **Intel** (`Scripts/War/Intel.cs`): each side builds up a picture of where the enemy is.
-- **Aircraft** in flight spot every enemy ground unit within 750 m of their track.
+- **Aircraft** in flight spot every enemy ground unit within 750 m of their track (1.1 km for the recon biplanes,
+  whose observers look further). The map is split into 400 m cells and each side remembers when it last looked at
+  each one; recon flights go to the cells looked at least recently.
 - **Drones** spot what their camera can see (needs a clear line of sight; 230–420 m depending on the drone).
 - **Fighting:** every exchange of fire tells both sides where the other one is, and units report what they see.
 - Contacts fade after 45 s unless seen again. Once a second they are grouped into **hotspots** (150 m cells,
@@ -344,7 +346,25 @@ brass and copper driving bands.
   - When an enemy gets on their tail they break hard, and they avoid head-on collisions.
   - They manage speed with the throttle and never pull into a stall.
   - Dive angle is limited by altitude, and recovery is planned from the real turn radius.
-  - Fighters prioritise enemy aircraft; the Wraith and Kestrel prioritise ground targets.
+  - **Biplanes (Kestrel, Falcon) are the scouts.** They are slower than the jets, so their job is intel and staying
+    alive:
+    - They fly high (600–720 m, out of small-arms reach) over the parts of the map their side has looked at least
+      recently, spreading out so two scouts don't cover the same ground.
+    - They keep clear of enemy flak: anti-air tanks, enemy airship guns, and any place they were shot at from the
+      ground (remembered for 75 s).
+    - When an enemy jet comes for them they run for a friendly airship's guns (or the nearest friendly jet, or home),
+      break hard when it closes in, and call for help. Badly damaged scouts keep to their own half.
+    - They never make attack runs and only shoot back in self-defence.
+  - **Jets (Lancer, Saber, Wraith)** in order of priority:
+    - Answer a scout's call for help: up to two jets break off and go for whatever is chasing it.
+    - Enemy aircraft, enemy scouts first (they are the other side's eyes).
+    - Ground units, and enemy airships (cannon-armed jets only; machine guns barely scratch a hull that size).
+      Targets sitting under an enemy airship's guns are worth less, so jets don't throw themselves into the flak.
+    - Wraiths fly escort: each takes one scout and circles above it, engaging anything that comes near it.
+    - With nothing in reach, a jet strikes the best known enemy position or sweeps the stalest part of the map,
+      gathering intel as it goes.
+  - In a 90 s 200 vs 200 self-test, 1 of 32 scouts was lost (16 before the rework). Each side looked at
+    93–97% of the map every minute.
 - **Mechs:**
   - They lead the push and alternate braced firing with repositioning; the Aegis and Thunderhead dash between fights.
   - The Thunderhead fires homing missile salvoes at armour.

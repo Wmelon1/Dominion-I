@@ -140,6 +140,8 @@ namespace Dominion
                         $" | projectile models drawn last frame {Projectiles.Drawn}, casings {Projectiles.CasingCount}" +
                         $" | airship gun hits {Tracers.FalloffHits}, mean damage {(Tracers.FalloffHits > 0 ? Tracers.FalloffSum / Tracers.FalloffHits * 100f : 0f):0}%," +
                         $" lowest {Tracers.FalloffLowest * 100f:0}% (longest flight {Tracers.FalloffFarthest:0} m)");
+                    Log($"      planes: scouts lost {PlaneAI.ScoutLosses}, jets lost {PlaneAI.JetLosses} | scout calls for help {PlaneAI.HelpCalls}, jets answered {PlaneAI.Responses}" +
+                        $" | recon reports {Intel.ReconReports} | map looked at in the last 60 s: B {Intel.Coverage(Team.Blue, 60f) * 100f:0}% R {Intel.Coverage(Team.Red, 60f) * 100f:0}%");
                     foreach (var a in Airship.All)
                         Log($"      ship {a.team} {a.displayName}: hp {(a.health ? a.health.Fraction * 100f : 0f):0}% {a.State} keel {a.AltitudeAboveGround:0} m over ground, " +
                             $"speed {a.Velocity.magnitude:0.0} m/s, goal {Vector3.Distance(AIUtil.Flat(a.transform.position), a.Goal):0} m away, shots {a.ShotsFired}, crew {a.CrewCount}");

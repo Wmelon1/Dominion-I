@@ -30,7 +30,7 @@ namespace Dominion
             public bool air;
         }
 
-        const float MaxAge = 45f, Cell = 150f, AirRange = 750f;
+        const float MaxAge = 45f, Cell = 150f, AirRange = 750f, ScoutRange = 1100f, ReconCell = 400f;
         static readonly Dictionary<Health, Contact>[] seen = { null, new Dictionary<Health, Contact>(), new Dictionary<Health, Contact>() };
         static readonly List<Hot>[] hots = { null, new List<Hot>(), new List<Hot>() };
         static readonly Dictionary<long, int> cellIndex = new Dictionary<long, int>();
@@ -41,6 +41,8 @@ namespace Dominion
 
         /// <summary>Contacts reported by aircraft and drones over the battle (for the auto-test log).</summary>
         public static int AirReports, DroneReports, BattleReports;
+        /// <summary>Contacts reported by the recon biplanes (their observers see further than a jet pilot).</summary>
+        public static int ReconReports;
 
         public static IReadOnlyList<Hot> Hots(Team t) => hots[(int)t];
         public static int Known(Team t) => seen[(int)t].Count;
@@ -48,7 +50,13 @@ namespace Dominion
         public static void Reset()
         {
             for (int t = 1; t <= 2; t++) { seen[t].Clear(); hots[t].Clear(); }
-            AirReports = DroneReports = BattleReports = 0;
+            AirReports = DroneReports = BattleReports = ReconReports = 0;
+            Grid();
+            for (int t = 1; t <= 2; t++)
+            {
+                for (int i = 0; i < scouted[t].Length; i++) scouted[t][i] = -999f;
+                claims[t].Clear();
+            }
             if (!hooked)
             {
                 Health.AnyDamage += OnDamage;
@@ -104,7 +112,10 @@ namespace Dominion
         {
             Vector3 p = plane.transform.position;
             var all = Health.All;
-            float r2 = AirRange * AirRange;
+            bool scout = plane.Vehicle is AircraftVehicle av && !av.Jet;
+            float range = scout ? ScoutRange : AirRange;
+            MarkScouted(plane.team, p, range);
+            float r2 = range * range;
             for (int i = 0; i < all.Count; i++)
             {
                 var e = all[i];
@@ -114,6 +125,7 @@ namespace Dominion
                 if (dx * dx + dz * dz > r2) continue;
                 Report(plane.team, e, false, true);
                 AirReports++;
+                if (scout) ReconReports++;
             }
         }
 
@@ -209,6 +221,98 @@ namespace Dominion
                 if (s > bs) { bs = s; best = h; }
             }
             return bs > 0f;
+        }
+
+        // ------------------------------------------------------------------ recon coverage
+        // The map is split into 400 m cells; every aircraft in flight marks the cells it can see as looked at. Recon flights
+        // go where their side has looked least recently.
+        static float gridExt;
+        static int gridN;
+        static readonly float[][] scouted = { null, null, null };
+        static readonly Dictionary<int, float>[] claims = { null, new Dictionary<int, float>(), new Dictionary<int, float>() };
+
+        static void Grid()
+        {
+            float e = CityGenerator.Instance ? CityGenerator.MapRange : 1400f;
+            if (scouted[1] != null && Mathf.Approximately(e, gridExt)) return;
+            gridExt = e;
+            gridN = Mathf.Max(4, Mathf.CeilToInt(2f * e / ReconCell));
+            for (int t = 1; t <= 2; t++)
+            {
+                scouted[t] = new float[gridN * gridN];
+                for (int i = 0; i < scouted[t].Length; i++) scouted[t][i] = -999f;
+            }
+        }
+
+        static float CellSize => 2f * gridExt / gridN;
+        static Vector3 CellCenter(int i) => new Vector3(-gridExt + (i % gridN + 0.5f) * CellSize, 0f, -gridExt + (i / gridN + 0.5f) * CellSize);
+        /// <summary>Cells inside the battlefield (the city is round; the square grid's corners are empty hills).</summary>
+        static bool InPlay(Vector3 c) => c.x * c.x + c.z * c.z <= gridExt * gridExt;
+
+        static void MarkScouted(Team t, Vector3 p, float r)
+        {
+            Grid();
+            float cs = CellSize, now = Time.time, r2 = r * r;
+            int x0 = Mathf.Max(0, Mathf.FloorToInt((p.x - r + gridExt) / cs)), x1 = Mathf.Min(gridN - 1, Mathf.FloorToInt((p.x + r + gridExt) / cs));
+            int z0 = Mathf.Max(0, Mathf.FloorToInt((p.z - r + gridExt) / cs)), z1 = Mathf.Min(gridN - 1, Mathf.FloorToInt((p.z + r + gridExt) / cs));
+            var s = scouted[(int)t];
+            for (int z = z0; z <= z1; z++)
+                for (int x = x0; x <= x1; x++)
+                {
+                    int i = z * gridN + x;
+                    Vector3 c = CellCenter(i);
+                    float dx = c.x - p.x, dz = c.z - p.z;
+                    if (dx * dx + dz * dz <= r2) s[i] = now;
+                }
+        }
+
+        /// <summary>Share of the battlefield this side has looked at in the last 'window' seconds.</summary>
+        public static float Coverage(Team t, float window)
+        {
+            Grid();
+            var s = scouted[(int)t];
+            int n = 0, seenN = 0;
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (!InPlay(CellCenter(i))) continue;
+                n++;
+                if (Time.time - s[i] < window) seenN++;
+            }
+            return n > 0 ? (float)seenN / n : 0f;
+        }
+
+        /// <summary>
+        /// Where a recon flight should go next: the cell its side has looked at least recently, nearer ones first.
+        /// enemyBias > 0 favours the enemy's half, < 0 our own; 'blocked' rules out cells (flak zones). Cells another
+        /// flight is already heading for count for less, so the scouts spread out.
+        /// </summary>
+        public static bool ReconTarget(Team t, Vector3 from, Vector3 enemyDir, float enemyBias, System.Func<Vector3, bool> blocked, out Vector3 dest)
+        {
+            Grid();
+            dest = default;
+            var s = scouted[(int)t];
+            var cl = claims[(int)t];
+            Vector3 ed = AIUtil.Flat(enemyDir);
+            ed = ed.sqrMagnitude > 1f ? ed.normalized : Vector3.forward;
+            float now = Time.time, best = 0f;
+            int bi = -1;
+            for (int i = 0; i < s.Length; i++)
+            {
+                Vector3 c = CellCenter(i);
+                if (!InPlay(c)) continue;
+                float stale = Mathf.Min(now - s[i], 180f);
+                if (stale < 20f) continue;
+                if (blocked != null && blocked(c)) continue;
+                float side = Vector3.Dot(c, ed) / gridExt;                       // -1 our edge .. +1 theirs
+                float sc = stale * Mathf.Max(0.15f, 1f + enemyBias * side) / (1f + AIUtil.Flat(c - from).magnitude / 1800f);
+                if (cl.TryGetValue(i, out float until) && until > now) sc *= 0.2f;
+                sc *= Random.Range(0.85f, 1.15f);
+                if (sc > best) { best = sc; bi = i; }
+            }
+            if (bi < 0) return false;
+            cl[bi] = now + 40f;
+            dest = CellCenter(bi);
+            return true;
         }
 
         /// <summary>Nearest known enemy position (any weight), for units that just want the closest fight.</summary>
